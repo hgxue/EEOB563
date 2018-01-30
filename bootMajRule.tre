@@ -1,0 +1,17 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Tue Jan 30 10:25:26 2018]
+[!
+>Consensus of 100 trees
+>
+>Source of trees from which consensus(es) calculated...
+>
+>Processing TREES block from file: ~/EEOB563/EEOB563/boot.tre
+>  Keeping: trees from file (replacing any trees already in memory)
+>
+>  100 trees read from file
+>
+>  Time used = 00:03:52 (CPU time = 0.01 sec)
+]
+	tree MajRule = [&U] (Platypus,Echidna,(((Opossum,Wallaby)50.471,Bandicoot)93.75,Elephant,Aardvark,Tenrec,Sloth,Armadillo,Human,Tree_shrew,Rabbit,Mouse,Hedgehog,(Flying_fox,Pig,Whale)50.298,Cat,Dog)100)0;
+end;
