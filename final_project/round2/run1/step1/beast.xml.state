@@ -1,0 +1,17 @@
+<itsabeastystatewerein version='2.0' sample='100000'>
+<statenode id='Tree.t:seq_fossil_sele'>(((((((((0:5.9431628257171205,((15:5.600000000000001,24:0.0)29:0.14193750353413392,18:4.641937503534134)27:1.3012253221829866)30:0.010368680529168728,((((7:0.0199147092515186,8:0.0199147092515186)35:0.12206298719888055,9:0.14197769645039915)33:2.1495111849699455,10:2.291488881420345)34:17.95395237152449,17:7.045441252944837)44:7.208090253301453)49:4.620867514414446,21:0.574399020660735)43:0.33722416993677484,5:0.9116231905975098)32:1.0069470287318865,19:1.9185702193293963)26:1.697198302393268,(4:0.17861418012609676,25:0.17861418012609676)38:3.4371543415965675)45:1.4135515100907483,22:5.029320031813413)39:0.7151178116784322,((((((2:0.0,(6:0.0,14:0.3999999999999986)46:2.1000000000000014)37:1.2998055022807833,13:1.2998055022807833)36:2.7001944977192167,12:0.0)40:3.996883107645136,11:1.4968831076451359)47:2.9175303665310004,23:0.9144134741761363)50:0.95592053527578,20:1.8703340094519163)28:3.8741038340399285)48:1.3171058353452096,((1:4.5,16:0.0)31:1.892132292712823,3:6.392132292712823)42:10.669411386124231)41:0.0</statenode>
+<statenode id='rateAC.s:seq_fossil_sele'>rateAC.s:seq_fossil_sele[1 1] (0.0,Infinity): 0.1882986223002162 </statenode>
+<statenode id='rateAG.s:seq_fossil_sele'>rateAG.s:seq_fossil_sele[1 1] (0.0,Infinity): 1.3987376579139255 </statenode>
+<statenode id='rateAT.s:seq_fossil_sele'>rateAT.s:seq_fossil_sele[1 1] (0.0,Infinity): 0.4338855500328413 </statenode>
+<statenode id='rateCG.s:seq_fossil_sele'>rateCG.s:seq_fossil_sele[1 1] (0.0,Infinity): 0.5270232941613685 </statenode>
+<statenode id='rateGT.s:seq_fossil_sele'>rateGT.s:seq_fossil_sele[1 1] (0.0,Infinity): 1.7576108435268394 </statenode>
+<statenode id='gammaShape.s:seq_fossil_sele'>gammaShape.s:seq_fossil_sele[1 1] (0.001,1000.0): 1.7200656723346357 </statenode>
+<statenode id='ucldMean.c:seq_fossil_sele'>ucldMean.c:seq_fossil_sele[1 1] (-Infinity,Infinity): 0.4242988441073079 </statenode>
+<statenode id='ucldStdev.c:seq_fossil_sele'>ucldStdev.c:seq_fossil_sele[1 1] (0.0,Infinity): 0.4953430519063536 </statenode>
+<statenode id='rateCategories.c:seq_fossil_sele'>rateCategories.c:seq_fossil_sele[50 1] (0,49): 10 25 43 38 49 7 32 40 9 24 1 19 2 31 27 26 20 49 31 23 26 41 3 32 34 16 9 30 32 47 25 38 12 48 29 42 27 46 38 9 33 45 16 20 9 7 12 25 29 38 </statenode>
+<statenode id='diversificationRateFBD.t:seq_fossil_sele'>diversificationRateFBD.t:seq_fossil_sele[1 1] (0.0,Infinity): 0.036779934808522215 </statenode>
+<statenode id='turnoverFBD.t:seq_fossil_sele'>turnoverFBD.t:seq_fossil_sele[1 1] (0.0,1.0): 0.9143625615108787 </statenode>
+<statenode id='samplingProportionFBD.t:seq_fossil_sele'>samplingProportionFBD.t:seq_fossil_sele[1 1] (0.0,1.0): 0.15245800887835795 </statenode>
+<statenode id='originFBD.t:seq_fossil_sele'>originFBD.t:seq_fossil_sele[1 1] (0.0,Infinity): 41.19808868642587 </statenode>
+<statenode id='freqParameter.s:seq_fossil_sele'>freqParameter.s:seq_fossil_sele[4 1] (0.0,1.0): 0.5226958814894659 0.025365681353391553 0.0010328560437523199 0.45090558111338996 </statenode>
+</itsabeastystatewerein>

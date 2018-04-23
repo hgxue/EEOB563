@@ -1,0 +1,126 @@
+>MG754070.1 Porites harrisoni
+>NC_035741.1 Rhopilema esculentum
+>NC_006379.1 Urechis caupo
+>NC_036411.1 Trichobilharzia szidati
+>NC_036669.1 Ortleppascaris sinensis
+>AY484747.1 Mytilus edulis
+>NC_024562.1 Haliotis laevigata
+>NC_000875.1 Anopheles quadrimaculatus A
+>HQ696579.1 Boreus elegans
+>NC_007693.1 Manouria emys
+>EU579523.1 Bungarus fasciatus
+>KM453976.1 Sphyrna tiburo
+>NC_023777.1 Ichthyaetus relictus
+>NC_028408.1 Gallicrex cinerea
+>NC_023965.1 Allenopithecus nigroviridis
+>NC_023964.1 Cercocebus torquatus
+>NC_023963.1 Cercopithecus diana
+>NC_023962.1 Cercopithecus lhoesti
+>NC_023961.1 Cercopithecus mitis
+>KJ434963.1 Mandrillus sphinx
+>KJ434962.1 Allenopithecus nigroviridis
+>KJ434961.1 Otolemur crassicaudatus
+>KJ434960.1 Lophocebus aterrimus 
+>KJ434959.1 Cercocebus torquatus
+>KJ434958.1 Cercopithecus diana
+>KJ434957.1 Cercopithecus lhoesti
+>KJ434956.1 Cercopithecus mitis
+>KJ434955.1 Erythrocebus patas 
+>KJ158463.1 Mirza coquereli 
+>KJ158462.1 Daubentonia madagascariensis
+>FR695060.1 Homo sp. Altai
+>NC_014453.1 Lepilemur hubbardorum
+>NC_014051.1 Nomascus siki
+>NC_014047.1 Symphalangus syndactylus
+>NC_014045.1 Hylobates pileatus
+>NC_014042.1 Hylobates agilis
+>EF061150.2 Homo sapiens isolate UV0758
+>NC_012763.1 Loris tardigradus
+>NC_012774.1 Tarsius syrichta
+>NC_012773.1 Varecia variegata variegata
+>NC_012771.1 Eulemur macaco macaco
+>NC_012769.1 Eulemur fulvus mayottensis
+>NC_012766.1 Eulemur fulvus fulvus
+>NC_012764.1 Perodicticus potto
+>NC_012761.1 Galago senegalensis
+>NC_012670.1 Macaca fascicularis
+>FJ785426.1 Theropithecus gelada
+>FJ785425.1 Saimiri sciureus
+>FJ785424.1 Saguinus oedipus 
+>FJ785423.1 Callicebus donacophilus
+>FJ785422.1 Ateles belzebuth
+>FJ785421.1 Aotus lemurinus
+>NC_011519.1 Macaca thibetana
+>AM948965.1 Homo sapiens neanderthalensis
+>AB286049.1 Propithecus verreauxi coquereli
+>NC_010300.1 Eulemur mongoz
+>NC_009748.1 Chlorocebus tantalus
+>NC_009747.1 Chlorocebus pygerythrus
+>EU095335.1 Pan troglodytes
+>EF597503.1 Chlorocebus sabaeus
+>NC_005129.2 Elephas maximus
+>NC_007936.1 Cricetulus griseus
+>DQ355302.1 Pygathrix nemaeus
+>DQ355301.1 Procolobus badius
+>DQ355300.1 Pygathrix roxellana
+>DQ355299.1 Presbytis melalophos
+>DQ355298.1 Nasalis larvatus
+>DQ355297.1 Semnopithecus entellus
+>NC_007009.1 Chlorocebus aethiops
+>NC_006900.1 Trachypithecus obscurus
+>AY863427.1 Colobus guereza
+>NC_006853.1 Bos taurus
+>NC_005943.1 Macaca mulatta
+>NC_002503.2 Physeter catodon
+>NC_005089.1 Mus musculus
+>AF460846.1 Cynocephalus variegatus
+>NC_004031.1 Galeopterus variegatus
+>NC_004025.1 Lemur catta
+>AJ421471.1 Lepus europaeus
+>AJ428514.1 Rattus norvegicus
+>NC_002008.4 Canis lupus familiaris
+>NC_003033.1 Ochotona collaris
+>NC_002811.1 Tarsius bancanus
+>NC_002765.1 Nycticebus coucang
+>AJ309866.1 Cebus albifrons
+>NC_002504.1 Lama pacos
+>AJ238588.1 Sciurus vulgaris
+>NC_000934.1 Loxodonta africana
+>NC_002082.1 Hylobates lar
+>NC_001992.1 Papio hamadryas
+>NC_001913.1 Oryctolagus cuniculus
+>NC_001892.1 Glis glis
+>NC_001779.1 Rhinoceros unicornis
+>NC_001646.1 Pongo pygmaeus
+>NC_001645.1 Gorilla gorilla
+>NC_001640.1 Equus caballus
+>NC_001601.1 Balaenoptera musculus
+>AJ222767.1 Cavia porcellus 
+>AJ002189.1 Sus scrofa
+>AJ010957.1 Hippopotamus amphibius
+>AF010406.1 Ovis aries
+>X97707.1 Pongo abelii
+>U20753.1 Felis catus
+>D38116.1 Pan paniscus 
+>X61145.1 Balaenoptera physalus
+>NC_006836.1 Rhizopus oryzae
+>NC_006838.1 Mortierella verticillata
+>NC_020369.1 Nuclearia simplex
+>NC_006990.1 Geodia neptuni
+>NC_009090.1 Oscarella carmela
+>EF537576.1 Iphiteon panicea 
+>EF537577.1 Sympagella nux 
+>NC_010202.1 Ephydatia muelleri
+>NC_010201.1 Amphimedon compressa
+>NC_010211.1 Xestospongia muta
+>NC_010203.1 Aplysina fulva
+>NC_010217.1 Plakinastrella cf. onkodes DVL-2011
+>NC_010208.1 Chondrilla aff. nucula CHOND
+>NC_035983.1 Oscarella pearsei
+>KM580074.1 Tabachnickia sp. DVL-2014 mitochondrion sequence
+>KM035411.1 Lophophysema eversa
+>JX963640.1 Oscarella tuberculata
+>NC_014863.1 Oscarella lobularis
+>NC_014872.1 Corticium candelabrum
+>NC_014856.1 Oscarella viridis
+>NC_010216.1 Igernella notabilis

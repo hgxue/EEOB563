@@ -1,0 +1,683 @@
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 14646 unique site patterns.
+  Using rescaling scheme : dynamic
+  Using BEAGLE version: 2.1.2 resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_NONE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+/Users/apple/Desktop/EEOB563/final_project/seq_run1_relaxed_lgNormal/step0/run.sh
+
+                        BEAST v2.3.2, 2002-2015
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                     Department of Computer Science
+                         University of Auckland
+                        remco@cs.auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+                 Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 780207619
+
+File: beast.xml seed: 780207619 threads: 1
+Loading package MODEL-SELECTION v1.1.3
+Loading package SA v1.1.3
+Alignment(mb)
+  117 taxa
+  14737 sites
+  14646 patterns
+
+AB286049.1_Propithecus_verreauxi_Primates_0 = 0.0 (0.0)
+AF010406.1_Ovis_aries_Non-primates_0 = 0.0 (0.0)
+AJ002189.1_Sus_scrofa_Non-primates_0 = 0.0 (0.0)
+AJ010957.1_Hippopotamus_amphibius_Non-primates_0 = 0.0 (0.0)
+AJ222767.1_Cavia_porcellus_Non-primates_0 = 0.0 (0.0)
+AJ238588.1_Sciurus_vulgaris_Non-primates_0 = 0.0 (0.0)
+AJ309866.1_Cebus_albifrons_Primates_0 = 0.0 (0.0)
+AJ421471.1_Lepus_europaeus_Non-primates_0 = 0.0 (0.0)
+AJ428514.1_Rattus_norvegicus_Non-primates_0 = 0.0 (0.0)
+AY484747.1_Mytilus_edulis_Non-primates_0 = 0.0 (0.0)
+AY863427.1_Colobus_guereza_Primates_0 = 0.0 (0.0)
+D38116.1_Pan_paniscus_Primates_0 = 0.0 (0.0)
+DQ355297.1_Semnopithecus_entellus_Primates_10 = 10.0 (10.0)
+DQ355298.1_Nasalis_larvatus_Primates_10 = 10.0 (10.0)
+DQ355299.1_Presbytis_melalophos_Primates_10 = 10.0 (10.0)
+DQ355300.1_Pygathrix_roxellana_Primates_0 = 0.0 (0.0)
+DQ355301.1_Procolobus_badius_Primates_0 = 0.0 (0.0)
+DQ355302.1_Pygathrix_nemaeus_Primates_10 = 10.0 (10.0)
+EF537576.1_Iphiteon_panicea_Hexactinellida_0 = 0.0 (0.0)
+EF537577.1_Sympagella_nux_Hexactinellida_0 = 0.0 (0.0)
+EF597503.1_Chlorocebus_sabaeus_Primates_0 = 0.0 (0.0)
+EU095335.1_Pan_troglodytes_Primates_0 = 0.0 (0.0)
+EU579523.1_Bungarus_fasciatus_Non-primates_0 = 0.0 (0.0)
+FJ785421.1_Aotus_lemurinus_Primates_12.1 = 12.1 (12.1)
+FJ785422.1_Ateles_belzebuth_Primates_31.5 = 31.5 (31.5)
+FJ785423.1_Callicebus_donacophilus_Primates_31.5 = 31.5 (31.5)
+FJ785424.1_Saguinus_oedipus_Primates_31.5 = 31.5 (31.5)
+FJ785425.1_Saimiri_sciureus_Primates_31.5 = 31.5 (31.5)
+FJ785426.1_Theropithecus_gelada_Primates_3.5 = 3.5 (3.5)
+FR695060.1_Homo_sp._Primates_6 = 6.0 (6.0)
+HQ696579.1_Boreus_elegans_Non-primates_0 = 0.0 (0.0)
+JX963640.1_Oscarella_tuberculata_Homoscleromorpha_0 = 0.0 (0.0)
+KJ158462.1_Daubentonia_madagascariensis_Primates_0 = 0.0 (0.0)
+KJ158463.1_Mirza_coquereli_Primates_0 = 0.0 (0.0)
+KJ434955.1_Erythrocebus_patas_Primates_0 = 0.0 (0.0)
+KJ434960.1_Lophocebus_aterrimus_Primates_0 = 0.0 (0.0)
+KJ434961.1_Otolemur_crassicaudatus_Primates_0 = 0.0 (0.0)
+KJ434963.1_Mandrillus_sphinx_Primates_0 = 0.0 (0.0)
+KM035411.1_Lophophysema_eversa_Hexactinellida_0 = 0.0 (0.0)
+KM453976.1_Sphyrna_tiburo_Non-primates_0 = 0.0 (0.0)
+KM580074.1_Tabachnickia_sp._Hexactinellida_0 = 0.0 (0.0)
+MG754070.1_Porites_harrisoni_Non-primates_0 = 0.0 (0.0)
+NC_000875.1_Anopheles_quadrimaculatus_Non-primates_0 = 0.0 (0.0)
+NC_000934.1_Loxodonta_africana_Non-primates_0 = 0.0 (0.0)
+NC_001601.1_Balaenoptera_musculus_Non-primates_0 = 0.0 (0.0)
+NC_001640.1_Equus_caballus_Non-primates_0 = 0.0 (0.0)
+NC_001645.1_Gorilla_gorilla_Primates_10 = 10.0 (10.0)
+NC_001646.1_Pongo_pygmaeus_Primates_12.5 = 12.5 (12.5)
+NC_001779.1_Rhinoceros_unicornis_Non-primates_0 = 0.0 (0.0)
+NC_001892.1_Glis_glis_Non-primates_0 = 0.0 (0.0)
+NC_001913.1_Oryctolagus_cuniculus_Non-primates_0 = 0.0 (0.0)
+NC_001992.1_Papio_hamadryas_Primates_0 = 0.0 (0.0)
+NC_002008.4_Canis_lupus_Non-primates_0 = 0.0 (0.0)
+NC_002082.1_Hylobates_lar_Primates_0 = 0.0 (0.0)
+NC_002503.2_Physeter_catodon_Non-primates_0 = 0.0 (0.0)
+NC_002504.1_Lama_pacos_Non-primates_0 = 0.0 (0.0)
+NC_002765.1_Nycticebus_coucang_Primates_0 = 0.0 (0.0)
+NC_002811.1_Tarsius_bancanus_Primates_0 = 0.0 (0.0)
+NC_003033.1_Ochotona_collaris_Non-primates_0 = 0.0 (0.0)
+NC_004025.1_Lemur_catta_Primates_0 = 0.0 (0.0)
+NC_004031.1_Galeopterus_variegatus_Non-primates_0 = 0.0 (0.0)
+NC_005089.1_Mus_musculus_Non-primates_11.1 = 11.1 (11.1)
+NC_005129.2_Elephas_maximus_Non-primates_0 = 0.0 (0.0)
+NC_005943.1_Macaca_mulatta_Primates_5.5 = 5.5 (5.5)
+NC_006379.1_Urechis_caupo_Non-primates_0 = 0.0 (0.0)
+NC_006836.1_Rhizopus_oryzae_Fungi_0 = 0.0 (0.0)
+NC_006838.1_Mortierella_verticillata_Fungi_0 = 0.0 (0.0)
+NC_006853.1_Bos_taurus_Non-primates_18.3 = 18.3 (18.3)
+NC_006900.1_Trachypithecus_obscurus_Primates_10 = 10.0 (10.0)
+NC_006990.1_Geodia_neptuni_Demospongiae_0 = 0.0 (0.0)
+NC_007009.1_Chlorocebus_aethiops_Primates_0 = 0.0 (0.0)
+NC_007693.1_Manouria_emys_Non-primates_0 = 0.0 (0.0)
+NC_007936.1_Cricetulus_griseus_Non-primates_0 = 0.0 (0.0)
+NC_009090.1_Oscarella_carmela_Homoscleromorpha_0 = 0.0 (0.0)
+NC_009747.1_Chlorocebus_pygerythrus_Primates_0 = 0.0 (0.0)
+NC_009748.1_Chlorocebus_tantalus_Primates_0 = 0.0 (0.0)
+NC_010201.1_Amphimedon_compressa_Demospongiae_0 = 0.0 (0.0)
+NC_010202.1_Ephydatia_muelleri_Demospongiae_0 = 0.0 (0.0)
+NC_010203.1_Aplysina_fulva_Demospongiae_0 = 0.0 (0.0)
+NC_010208.1_Chondrilla_aff._Demospongiae_0 = 0.0 (0.0)
+NC_010211.1_Xestospongia_muta_Demospongiae_0 = 0.0 (0.0)
+NC_010216.1_Igernella_notabilis_Demospongiae_0 = 0.0 (0.0)
+NC_010217.1_Plakinastrella_cf._Homoscleromorpha_0 = 0.0 (0.0)
+NC_010300.1_Eulemur_mongoz_Primates_0 = 0.0 (0.0)
+NC_011519.1_Macaca_thibetana_Primates_5.5 = 5.5 (5.5)
+NC_012670.1_Macaca_fascicularis_Primates_5.5 = 5.5 (5.5)
+NC_012761.1_Galago_senegalensis_Primates_0 = 0.0 (0.0)
+NC_012763.1_Loris_tardigradus_Primates_0 = 0.0 (0.0)
+NC_012764.1_Perodicticus_potto_Primates_0 = 0.0 (0.0)
+NC_012769.1_Eulemur_fulvus_Primates_0 = 0.0 (0.0)
+NC_012771.1_Eulemur_macaco_Primates_0 = 0.0 (0.0)
+NC_012773.1_Varecia_variegata_Primates_0 = 0.0 (0.0)
+NC_012774.1_Tarsius_syrichta_Primates_0 = 0.0 (0.0)
+NC_014042.1_Hylobates_agilis_Primates_0 = 0.0 (0.0)
+NC_014045.1_Hylobates_pileatus_Primates_0 = 0.0 (0.0)
+NC_014047.1_Symphalangus_syndactylus_Primates_0 = 0.0 (0.0)
+NC_014051.1_Nomascus_siki_Primates_0 = 0.0 (0.0)
+NC_014453.1_Lepilemur_hubbardorum_Primates_0 = 0.0 (0.0)
+NC_014856.1_Oscarella_viridis_Homoscleromorpha_0 = 0.0 (0.0)
+NC_014863.1_Oscarella_lobularis_Homoscleromorpha_0 = 0.0 (0.0)
+NC_014872.1_Corticium_candelabrum_Homoscleromorpha_0 = 0.0 (0.0)
+NC_020369.1_Nuclearia_simplex_Fungi_0 = 0.0 (0.0)
+NC_023777.1_Ichthyaetus_relictus_Non-primates_0 = 0.0 (0.0)
+NC_023961.1_Cercopithecus_mitis_Primates_0 = 0.0 (0.0)
+NC_023962.1_Cercopithecus_lhoesti_Primates_0 = 0.0 (0.0)
+NC_023963.1_Cercopithecus_diana_Primates_0 = 0.0 (0.0)
+NC_023964.1_Cercocebus_torquatus_Primates_0 = 0.0 (0.0)
+NC_023965.1_Allenopithecus_nigroviridis_Primates_0 = 0.0 (0.0)
+NC_024562.1_Haliotis_laevigata_Non-primates_0 = 0.0 (0.0)
+NC_028408.1_Gallicrex_cinerea_Non-primates_0 = 0.0 (0.0)
+NC_035741.1_Rhopilema_esculentum_Non-primates_0 = 0.0 (0.0)
+NC_035983.1_Oscarella_pearsei_Homoscleromorpha_0 = 0.0 (0.0)
+NC_036411.1_Trichobilharzia_szidati_Non-primates_0 = 0.0 (0.0)
+NC_036669.1_Ortleppascaris_sinensis_Non-primates_0 = 0.0 (0.0)
+U20753.1_Felis_catus_Non-primates_0 = 0.0 (0.0)
+X61145.1_Balaenoptera_physalus_Non-primates_0 = 0.0 (0.0)
+X97707.1_Pongo_abelii_Primates_12.5 = 12.5 (12.5)
+  UCRelaxedClockModel: using 232 rate categories to approximate rate distribution across branches.
+TreeLikelihood(treeLikelihood.mb) uses BeerLikelihoodCore4
+  Alignment(mb): [taxa, patterns, sites] = [117, 14646, 14737]
+===============================================================================
+Citations for this model:
+
+Bouckaert RR, Heled J, Kuehnert D, Vaughan TG, Wu C-H, Xie D, Suchard MA,
+  Rambaut A, Drummond AJ (2014) BEAST 2: A software platform for Bayesian
+  evolutionary analysis. PLoS Computational Biology 10(4): e1003537
+
+Gavryushkina A, Welch D, Stadler T, Drummond AJ (2014) 
+Bayesian inference of sampled ancestor trees for epidemiology and fossil calibration. 
+PLoS Comput Biol 10(12): e1003919. doi:10.1371/journal.pcbi.1003919
+
+Drummond AJ, Ho SYW, Phillips MJ, Rambaut A (2006) Relaxed Phylogenetics and
+  Dating with Confidence. PLoS Biol 4(5): e88
+
+===============================================================================
+Start likelihood: -1769181.5501504792 
+Writing file seq_run1_relaxed_lgNormal.log
+         Sample      posterior ESS(posterior)     likelihood          prior
+Writing file mb.trees
+Writing file likelihood.log
+              0   -798439.5157              N   -798408.6965       -30.8191 --
+           1000   -798298.4317         2.0      -798270.9150       -27.5167 --
+           2000   -798187.2687         3.0      -798159.5895       -27.6792 --
+           3000   -798136.4200         4.0      -798105.2450       -31.1749 --
+           4000   -798049.7932         3.1      -798022.4465       -27.3467 --
+           5000   -797720.8190         3.2      -797688.3123       -32.5066 --
+           6000   -797483.9766         2.9      -797446.3547       -37.6218 --
+           7000   -797253.8674         2.6      -797219.8540       -34.0134 --
+           8000   -796821.6377         2.8      -796787.3280       -34.3097 --
+           9000   -796688.9328         2.6      -796657.2354       -31.6974 --
+          10000   -796562.0216         2.6      -796527.0123       -35.0092 --
+          11000   -796424.6212         2.4      -796391.8402       -32.7809 4h53m3s/Msamples
+          12000   -796247.8862         2.3      -796216.0733       -31.8129 4h39m56s/Msamples
+          13000   -796211.7929         2.3      -796179.2836       -32.5093 4h44m30s/Msamples
+          14000   -796050.5935         2.3      -796019.2473       -31.3461 4h47m28s/Msamples
+          15000   -795882.3083         2.4      -795850.6457       -31.6626 4h47m7s/Msamples
+          16000   -795823.2872         2.4      -795791.6980       -31.5891 4h54m1s/Msamples
+          17000   -795783.4794         2.4      -795750.6200       -32.8594 4h56m27s/Msamples
+          18000   -795763.1181         2.4      -795729.7600       -33.3580 4h56m53s/Msamples
+          19000   -795736.0525         2.5      -795702.5209       -33.5316 4h58m43s/Msamples
+          20000   -794654.1258         2.7      -794621.4886       -32.6372 4h59m13s/Msamples
+          21000   -794465.9186         2.9      -794432.3882       -33.5303 4h58m11s/Msamples
+          22000   -794230.0508         2.9      -794197.9782       -32.0726 4h59m4s/Msamples
+          23000   -794176.3107         2.8      -794143.7158       -32.5948 4h59m34s/Msamples
+          24000   -794174.0957         2.8      -794141.2663       -32.8294 5h0m8s/Msamples
+          25000   -794123.2689         2.8      -794091.5179       -31.7510 4h59m32s/Msamples
+          26000   -792901.1179         2.8      -792869.5863       -31.5315 5h1m22s/Msamples
+          27000   -792454.3558         2.9      -792423.9927       -30.3630 5h1m9s/Msamples
+          28000   -792376.0679         2.8      -792338.6281       -37.4398 5h1m32s/Msamples
+          29000   -792313.9711         2.8      -792279.3820       -34.5891 5h2m34s/Msamples
+          30000   -792286.0098         2.7      -792253.0116       -32.9982 5h1m7s/Msamples
+          31000   -792259.5149         2.6      -792222.2331       -37.2818 5h1m3s/Msamples
+          32000   -792169.3643         2.6      -792136.7237       -32.6406 5h0m35s/Msamples
+          33000   -792120.1321         2.6      -792085.4570       -34.6750 4h59m49s/Msamples
+          34000   -792061.4688         2.5      -792029.8844       -31.5844 4h59m52s/Msamples
+          35000   -792057.8347         2.5      -792025.1758       -32.6589 5h1m45s/Msamples
+          36000   -791794.6139         2.4      -791762.3432       -32.2706 5h2m13s/Msamples
+          37000   -791707.4196         2.4      -791675.6110       -31.8085 5h2m17s/Msamples
+          38000   -791689.7385         2.4      -791658.4849       -31.2535 5h4m12s/Msamples
+          39000   -791685.3246         2.4      -791654.5993       -30.7253 5h4m26s/Msamples
+          40000   -791594.6794         2.4      -791563.3999       -31.2794 5h4m3s/Msamples
+          41000   -791561.9333         2.3      -791529.0015       -32.9317 5h3m36s/Msamples
+          42000   -791119.0762         2.3      -791085.7846       -33.2915 5h2m57s/Msamples
+          43000   -791067.3968         2.3      -791037.0094       -30.3873 5h3m25s/Msamples
+          44000   -790166.0394         2.4      -790133.8397       -32.1997 5h4m7s/Msamples
+          45000   -789697.8704         2.4      -789663.7677       -34.1027 5h3m57s/Msamples
+          46000   -789471.7185         2.4      -789440.6834       -31.0350 5h3m28s/Msamples
+          47000   -789429.0459         2.5      -789398.0568       -30.9891 5h2m31s/Msamples
+          48000   -789390.1881         2.5      -789359.0880       -31.1001 5h2m46s/Msamples
+          49000   -789337.3750         2.5      -789304.5657       -32.8093 5h2m36s/Msamples
+          50000   -789267.0892         2.5      -789232.9090       -34.1801 5h2m37s/Msamples
+          51000   -789272.3706         2.5      -789234.7955       -37.5751 5h2m14s/Msamples
+          52000   -789218.7306         2.5      -789183.2984       -35.4321 5h1m50s/Msamples
+          53000   -788769.2781         2.5      -788734.1655       -35.1126 5h2m14s/Msamples
+          54000   -788767.7936         2.5      -788733.9575       -33.8360 5h2m25s/Msamples
+          55000   -788744.9623         2.5      -788710.9043       -34.0580 5h2m13s/Msamples
+          56000   -788742.5522         2.5      -788709.4067       -33.1455 5h2m26s/Msamples
+          57000   -788678.8415         2.5      -788643.9229       -34.9185 5h2m38s/Msamples
+          58000   -787820.0796         2.5      -787783.6910       -36.3886 5h2m23s/Msamples
+          59000   -786432.5202         2.6      -786399.6792       -32.8409 5h2m42s/Msamples
+          60000   -786215.4740         2.6      -786183.0284       -32.4455 5h3m7s/Msamples
+          61000   -786159.1644         2.6      -786127.6616       -31.5028 5h3m14s/Msamples
+          62000   -786111.0758         2.6      -786078.9737       -32.1021 5h3m17s/Msamples
+          63000   -786038.4779         2.6      -786003.7802       -34.6976 5h2m59s/Msamples
+          64000   -785974.1698         2.6      -785943.8753       -30.2945 5h3m12s/Msamples
+          65000   -785893.4524         2.6      -785862.2501       -31.2023 5h3m10s/Msamples
+          66000   -785824.6724         2.6      -785793.7368       -30.9356 5h3m9s/Msamples
+          67000   -785782.7914         2.6      -785750.7220       -32.0693 5h3m26s/Msamples
+          68000   -785781.7679         2.6      -785750.7737       -30.9941 5h3m32s/Msamples
+          69000   -785763.2651         2.6      -785732.6818       -30.5832 5h3m29s/Msamples
+          70000   -785749.6085         2.6      -785718.2206       -31.3879 5h3m47s/Msamples
+          71000   -785743.8117         2.6      -785712.7504       -31.0612 5h4m21s/Msamples
+          72000   -785737.2673         2.6      -785705.1530       -32.1143 5h4m11s/Msamples
+          73000   -785732.4130         2.5      -785698.3857       -34.0273 5h4m15s/Msamples
+          74000   -785721.5064         2.5      -785689.3175       -32.1888 5h4m6s/Msamples
+          75000   -785715.1583         2.5      -785685.3385       -29.8197 5h4m19s/Msamples
+          76000   -785687.3793         2.5      -785655.0622       -32.3171 5h4m8s/Msamples
+          77000   -785676.4399         2.5      -785644.8250       -31.6149 5h4m3s/Msamples
+          78000   -785648.9703         2.5      -785618.0368       -30.9335 5h3m43s/Msamples
+          79000   -785630.0261         2.5      -785597.9797       -32.0463 5h3m39s/Msamples
+          80000   -785617.8038         2.5      -785584.8763       -32.9275 5h3m56s/Msamples
+          81000   -785581.7015         2.5      -785551.3817       -30.3198 5h3m51s/Msamples
+          82000   -785554.0458         2.5      -785524.1334       -29.9123 5h3m45s/Msamples
+          83000   -785557.0928         2.4      -785523.3786       -33.7141 5h3m28s/Msamples
+          84000   -785548.9141         2.4      -785518.1312       -30.7828 5h3m17s/Msamples
+          85000   -785537.6118         2.4      -785505.8872       -31.7246 5h3m10s/Msamples
+          86000   -785492.5732         2.4      -785462.1731       -30.4000 5h2m58s/Msamples
+          87000   -785430.7564         2.4      -785399.0904       -31.6660 5h2m54s/Msamples
+          88000   -785249.3060         2.4      -785218.7816       -30.5244 5h3m1s/Msamples
+          89000   -785248.2719         2.4      -785217.3709       -30.9009 5h2m57s/Msamples
+          90000   -785220.1355         2.4      -785190.1285       -30.0069 5h2m57s/Msamples
+          91000   -785210.9768         2.4      -785180.3292       -30.6475 5h2m53s/Msamples
+          92000   -785189.3198         2.4      -785156.0612       -33.2585 5h2m57s/Msamples
+          93000   -785161.0381         2.4      -785128.0290       -33.0090 5h3m8s/Msamples
+          94000   -785132.8822         2.4      -785101.5376       -31.3445 5h2m58s/Msamples
+          95000   -785111.2347         2.4      -785078.9265       -32.3081 5h3m8s/Msamples
+          96000   -785100.9363         2.4      -785070.2721       -30.6642 5h2m52s/Msamples
+          97000   -785090.3684         2.4      -785058.9434       -31.4250 5h2m54s/Msamples
+          98000   -785081.1163         2.4      -785050.2016       -30.9146 5h3m3s/Msamples
+          99000   -785074.4287         2.4      -785043.8787       -30.5500 5h3m8s/Msamples
+         100000   -785062.0680         2.5      -785028.1253       -33.9426 5h3m30s/Msamples
+Operator                                             Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(RateACScaler.s:mb)                     0.6428          4         64     0.0007     0.0588 Try setting scaleFactor to about 0.802
+ScaleOperator(RateAGScaler.s:mb)                     0.6492          2         68     0.0007     0.0286 Try setting scaleFactor to about 0.806
+ScaleOperator(RateATScaler.s:mb)                     0.6461          5         77     0.0007     0.0610 Try setting scaleFactor to about 0.804
+ScaleOperator(RateCGScaler.s:mb)                     0.6219          7         59     0.0007     0.1061 
+ScaleOperator(RateGTScaler.s:mb)                     0.6058          8         67     0.0007     0.1067 
+ScaleOperator(ucldMeanScaler.c:mb)                   0.7729         16        709     0.0074     0.0221 Try setting scaleFactor to about 0.879
+ScaleOperator(ucldStdevScaler.c:mb)                  0.8296         14       2230     0.0223     0.0062 Try setting scaleFactor to about 0.911
+IntRandomWalkOperator(CategoriesRandomWalk.c:mb)          -       3412       3938     0.0742     0.4642 
+SwapOperator(CategoriesSwapOperator.c:mb)                 -        195       7247     0.0742     0.0262 
+UniformOperator(CategoriesUniform.c:mb)                   -        383       7201     0.0742     0.0505 
+UpDownOperator(relaxedUpDownOperator.c:mb)           0.8631          1       2235     0.0223     0.0004 Try setting scaleFactor to about 0.929
+ScaleOperator(originScalerFBD.t:mb)                  0.5623        707       1518     0.0223     0.3178 
+ScaleOperator(divRateScalerFBD.t:mb)                 0.5713       2694       4709     0.0742     0.3639 
+ScaleOperator(turnoverScalerFBD.t:mb)                0.9241         79       7299     0.0742     0.0107 Try setting scaleFactor to about 0.961
+ScaleOperator(samplingPScalerFBD.t:mb)               0.3175       3357       4173     0.0742     0.4458 Try setting scaleFactor to about 0.112
+LeafToSampledAncestorJump(LeafToSAFBD.t:mb)               -          0       7440     0.0742     0.0000 
+SAWilsonBalding(SAWilsonBaldingFBD.t:mb)                  -          7       7498     0.0742     0.0009 
+SAExchange(SAWideFBD.t:mb)                                -          6       7388     0.0742     0.0008 
+SAExchange(SANarrowFBD.t:mb)                              -        106       7346     0.0742     0.0142 
+SAUniform(SAUniformOperatorFBD.t:mb)                      -       1050      13610     0.1485     0.0716 
+SAScaleOperator(SATreeRootScalerFBD.t:mb)            0.9778          5        743     0.0074     0.0067 Try setting scaleFactor to about 0.989
+SAScaleOperator(SATreeScalerFBD.t:mb)                0.9847          0       2175     0.0223     0.0000 Try setting scaleFactor to about 0.992
+ScaleOperator(gammaShapeScaler.s:mb)                 0.6950          0         71     0.0007     0.0000 Try setting scaleFactor to about 0.834
+DeltaExchangeOperator(FrequenciesExchanger.s:mb)     0.0139         21         57     0.0007     0.2692 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 3736.515 seconds
+End likelihood: -785062.0680589433
+/Users/apple/Desktop/EEOB563/final_project/seq_run1_relaxed_lgNormal/step1/run.sh
+
+                        BEAST v2.3.2, 2002-2015
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                     Department of Computer Science
+                         University of Auckland
+                        remco@cs.auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+                 Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1860434221
+
+File: beast.xml seed: 1860434221 threads: 1
+Resuming from file
+Loading package MODEL-SELECTION v1.1.3
+Loading package SA v1.1.3
+Alignment(mb)
+  117 taxa
+  14737 sites
+  14646 patterns
+
+AB286049.1_Propithecus_verreauxi_Primates_0 = 0.0 (0.0)
+AF010406.1_Ovis_aries_Non-primates_0 = 0.0 (0.0)
+AJ002189.1_Sus_scrofa_Non-primates_0 = 0.0 (0.0)
+AJ010957.1_Hippopotamus_amphibius_Non-primates_0 = 0.0 (0.0)
+AJ222767.1_Cavia_porcellus_Non-primates_0 = 0.0 (0.0)
+AJ238588.1_Sciurus_vulgaris_Non-primates_0 = 0.0 (0.0)
+AJ309866.1_Cebus_albifrons_Primates_0 = 0.0 (0.0)
+AJ421471.1_Lepus_europaeus_Non-primates_0 = 0.0 (0.0)
+AJ428514.1_Rattus_norvegicus_Non-primates_0 = 0.0 (0.0)
+AY484747.1_Mytilus_edulis_Non-primates_0 = 0.0 (0.0)
+AY863427.1_Colobus_guereza_Primates_0 = 0.0 (0.0)
+D38116.1_Pan_paniscus_Primates_0 = 0.0 (0.0)
+DQ355297.1_Semnopithecus_entellus_Primates_10 = 10.0 (10.0)
+DQ355298.1_Nasalis_larvatus_Primates_10 = 10.0 (10.0)
+DQ355299.1_Presbytis_melalophos_Primates_10 = 10.0 (10.0)
+DQ355300.1_Pygathrix_roxellana_Primates_0 = 0.0 (0.0)
+DQ355301.1_Procolobus_badius_Primates_0 = 0.0 (0.0)
+DQ355302.1_Pygathrix_nemaeus_Primates_10 = 10.0 (10.0)
+EF537576.1_Iphiteon_panicea_Hexactinellida_0 = 0.0 (0.0)
+EF537577.1_Sympagella_nux_Hexactinellida_0 = 0.0 (0.0)
+EF597503.1_Chlorocebus_sabaeus_Primates_0 = 0.0 (0.0)
+EU095335.1_Pan_troglodytes_Primates_0 = 0.0 (0.0)
+EU579523.1_Bungarus_fasciatus_Non-primates_0 = 0.0 (0.0)
+FJ785421.1_Aotus_lemurinus_Primates_12.1 = 12.1 (12.1)
+FJ785422.1_Ateles_belzebuth_Primates_31.5 = 31.5 (31.5)
+FJ785423.1_Callicebus_donacophilus_Primates_31.5 = 31.5 (31.5)
+FJ785424.1_Saguinus_oedipus_Primates_31.5 = 31.5 (31.5)
+FJ785425.1_Saimiri_sciureus_Primates_31.5 = 31.5 (31.5)
+FJ785426.1_Theropithecus_gelada_Primates_3.5 = 3.5 (3.5)
+FR695060.1_Homo_sp._Primates_6 = 6.0 (6.0)
+HQ696579.1_Boreus_elegans_Non-primates_0 = 0.0 (0.0)
+JX963640.1_Oscarella_tuberculata_Homoscleromorpha_0 = 0.0 (0.0)
+KJ158462.1_Daubentonia_madagascariensis_Primates_0 = 0.0 (0.0)
+KJ158463.1_Mirza_coquereli_Primates_0 = 0.0 (0.0)
+KJ434955.1_Erythrocebus_patas_Primates_0 = 0.0 (0.0)
+KJ434960.1_Lophocebus_aterrimus_Primates_0 = 0.0 (0.0)
+KJ434961.1_Otolemur_crassicaudatus_Primates_0 = 0.0 (0.0)
+KJ434963.1_Mandrillus_sphinx_Primates_0 = 0.0 (0.0)
+KM035411.1_Lophophysema_eversa_Hexactinellida_0 = 0.0 (0.0)
+KM453976.1_Sphyrna_tiburo_Non-primates_0 = 0.0 (0.0)
+KM580074.1_Tabachnickia_sp._Hexactinellida_0 = 0.0 (0.0)
+MG754070.1_Porites_harrisoni_Non-primates_0 = 0.0 (0.0)
+NC_000875.1_Anopheles_quadrimaculatus_Non-primates_0 = 0.0 (0.0)
+NC_000934.1_Loxodonta_africana_Non-primates_0 = 0.0 (0.0)
+NC_001601.1_Balaenoptera_musculus_Non-primates_0 = 0.0 (0.0)
+NC_001640.1_Equus_caballus_Non-primates_0 = 0.0 (0.0)
+NC_001645.1_Gorilla_gorilla_Primates_10 = 10.0 (10.0)
+NC_001646.1_Pongo_pygmaeus_Primates_12.5 = 12.5 (12.5)
+NC_001779.1_Rhinoceros_unicornis_Non-primates_0 = 0.0 (0.0)
+NC_001892.1_Glis_glis_Non-primates_0 = 0.0 (0.0)
+NC_001913.1_Oryctolagus_cuniculus_Non-primates_0 = 0.0 (0.0)
+NC_001992.1_Papio_hamadryas_Primates_0 = 0.0 (0.0)
+NC_002008.4_Canis_lupus_Non-primates_0 = 0.0 (0.0)
+NC_002082.1_Hylobates_lar_Primates_0 = 0.0 (0.0)
+NC_002503.2_Physeter_catodon_Non-primates_0 = 0.0 (0.0)
+NC_002504.1_Lama_pacos_Non-primates_0 = 0.0 (0.0)
+NC_002765.1_Nycticebus_coucang_Primates_0 = 0.0 (0.0)
+NC_002811.1_Tarsius_bancanus_Primates_0 = 0.0 (0.0)
+NC_003033.1_Ochotona_collaris_Non-primates_0 = 0.0 (0.0)
+NC_004025.1_Lemur_catta_Primates_0 = 0.0 (0.0)
+NC_004031.1_Galeopterus_variegatus_Non-primates_0 = 0.0 (0.0)
+NC_005089.1_Mus_musculus_Non-primates_11.1 = 11.1 (11.1)
+NC_005129.2_Elephas_maximus_Non-primates_0 = 0.0 (0.0)
+NC_005943.1_Macaca_mulatta_Primates_5.5 = 5.5 (5.5)
+NC_006379.1_Urechis_caupo_Non-primates_0 = 0.0 (0.0)
+NC_006836.1_Rhizopus_oryzae_Fungi_0 = 0.0 (0.0)
+NC_006838.1_Mortierella_verticillata_Fungi_0 = 0.0 (0.0)
+NC_006853.1_Bos_taurus_Non-primates_18.3 = 18.3 (18.3)
+NC_006900.1_Trachypithecus_obscurus_Primates_10 = 10.0 (10.0)
+NC_006990.1_Geodia_neptuni_Demospongiae_0 = 0.0 (0.0)
+NC_007009.1_Chlorocebus_aethiops_Primates_0 = 0.0 (0.0)
+NC_007693.1_Manouria_emys_Non-primates_0 = 0.0 (0.0)
+NC_007936.1_Cricetulus_griseus_Non-primates_0 = 0.0 (0.0)
+NC_009090.1_Oscarella_carmela_Homoscleromorpha_0 = 0.0 (0.0)
+NC_009747.1_Chlorocebus_pygerythrus_Primates_0 = 0.0 (0.0)
+NC_009748.1_Chlorocebus_tantalus_Primates_0 = 0.0 (0.0)
+NC_010201.1_Amphimedon_compressa_Demospongiae_0 = 0.0 (0.0)
+NC_010202.1_Ephydatia_muelleri_Demospongiae_0 = 0.0 (0.0)
+NC_010203.1_Aplysina_fulva_Demospongiae_0 = 0.0 (0.0)
+NC_010208.1_Chondrilla_aff._Demospongiae_0 = 0.0 (0.0)
+NC_010211.1_Xestospongia_muta_Demospongiae_0 = 0.0 (0.0)
+NC_010216.1_Igernella_notabilis_Demospongiae_0 = 0.0 (0.0)
+NC_010217.1_Plakinastrella_cf._Homoscleromorpha_0 = 0.0 (0.0)
+NC_010300.1_Eulemur_mongoz_Primates_0 = 0.0 (0.0)
+NC_011519.1_Macaca_thibetana_Primates_5.5 = 5.5 (5.5)
+NC_012670.1_Macaca_fascicularis_Primates_5.5 = 5.5 (5.5)
+NC_012761.1_Galago_senegalensis_Primates_0 = 0.0 (0.0)
+NC_012763.1_Loris_tardigradus_Primates_0 = 0.0 (0.0)
+NC_012764.1_Perodicticus_potto_Primates_0 = 0.0 (0.0)
+NC_012769.1_Eulemur_fulvus_Primates_0 = 0.0 (0.0)
+NC_012771.1_Eulemur_macaco_Primates_0 = 0.0 (0.0)
+NC_012773.1_Varecia_variegata_Primates_0 = 0.0 (0.0)
+NC_012774.1_Tarsius_syrichta_Primates_0 = 0.0 (0.0)
+NC_014042.1_Hylobates_agilis_Primates_0 = 0.0 (0.0)
+NC_014045.1_Hylobates_pileatus_Primates_0 = 0.0 (0.0)
+NC_014047.1_Symphalangus_syndactylus_Primates_0 = 0.0 (0.0)
+NC_014051.1_Nomascus_siki_Primates_0 = 0.0 (0.0)
+NC_014453.1_Lepilemur_hubbardorum_Primates_0 = 0.0 (0.0)
+NC_014856.1_Oscarella_viridis_Homoscleromorpha_0 = 0.0 (0.0)
+NC_014863.1_Oscarella_lobularis_Homoscleromorpha_0 = 0.0 (0.0)
+NC_014872.1_Corticium_candelabrum_Homoscleromorpha_0 = 0.0 (0.0)
+NC_020369.1_Nuclearia_simplex_Fungi_0 = 0.0 (0.0)
+NC_023777.1_Ichthyaetus_relictus_Non-primates_0 = 0.0 (0.0)
+NC_023961.1_Cercopithecus_mitis_Primates_0 = 0.0 (0.0)
+NC_023962.1_Cercopithecus_lhoesti_Primates_0 = 0.0 (0.0)
+NC_023963.1_Cercopithecus_diana_Primates_0 = 0.0 (0.0)
+NC_023964.1_Cercocebus_torquatus_Primates_0 = 0.0 (0.0)
+NC_023965.1_Allenopithecus_nigroviridis_Primates_0 = 0.0 (0.0)
+NC_024562.1_Haliotis_laevigata_Non-primates_0 = 0.0 (0.0)
+NC_028408.1_Gallicrex_cinerea_Non-primates_0 = 0.0 (0.0)
+NC_035741.1_Rhopilema_esculentum_Non-primates_0 = 0.0 (0.0)
+NC_035983.1_Oscarella_pearsei_Homoscleromorpha_0 = 0.0 (0.0)
+NC_036411.1_Trichobilharzia_szidati_Non-primates_0 = 0.0 (0.0)
+NC_036669.1_Ortleppascaris_sinensis_Non-primates_0 = 0.0 (0.0)
+U20753.1_Felis_catus_Non-primates_0 = 0.0 (0.0)
+X61145.1_Balaenoptera_physalus_Non-primates_0 = 0.0 (0.0)
+X97707.1_Pongo_abelii_Primates_12.5 = 12.5 (12.5)
+  UCRelaxedClockModel: using 232 rate categories to approximate rate distribution across branches.
+TreeLikelihood(treeLikelihood.mb) uses BeerLikelihoodCore4
+  Alignment(mb): [taxa, patterns, sites] = [117, 14646, 14737]
+===============================================================================
+Citations for this model:
+
+Bouckaert RR, Heled J, Kuehnert D, Vaughan TG, Wu C-H, Xie D, Suchard MA,
+  Rambaut A, Drummond AJ (2014) BEAST 2: A software platform for Bayesian
+  evolutionary analysis. PLoS Computational Biology 10(4): e1003537
+
+Gavryushkina A, Welch D, Stadler T, Drummond AJ (2014) 
+Bayesian inference of sampled ancestor trees for epidemiology and fossil calibration. 
+PLoS Comput Biol 10(12): e1003919. doi:10.1371/journal.pcbi.1003919
+
+Drummond AJ, Ho SYW, Phillips MJ, Rambaut A (2006) Relaxed Phylogenetics and
+  Dating with Confidence. PLoS Biol 4(5): e88
+
+===============================================================================
+Restoring from file
+Start likelihood: -785062.0680589434 
+Writing file seq_run1_relaxed_lgNormal.log
+         Sample      posterior ESS(posterior)     likelihood          prior
+Writing file mb.trees
+Writing file likelihood.log
+              0   -785349.7348              N   -785315.7921       -33.9426 --
+           1000  -1334111.4692         2.0     -1334117.0513         5.5821 --
+           2000  -1421967.9088         3.0     -1421967.9292         0.0204 --
+           3000  -1556229.3632         4.0     -1556211.8620       -17.5012 --
+           4000  -1525757.8791         4.3     -1525742.7050       -15.1741 --
+           5000  -1585353.4202         3.8     -1585354.5949         1.1747 --
+           6000  -1631804.8688         3.9     -1631806.6699         1.8010 --
+           7000  -1576185.5451         4.1     -1576184.2890        -1.2561 --
+           8000  -1586741.7070         4.4     -1586751.4852         9.7782 --
+           9000  -1624586.2144         4.0     -1624597.7250        11.5106 --
+          10000  -1562427.1061         4.3     -1562425.2457        -1.8603 --
+          11000  -1587001.5430         4.7     -1587016.2377        14.6946 5h4m43s/Msamples
+          12000  -1588855.5508         5.2     -1588886.9254        31.3746 4h57m23s/Msamples
+          13000  -1498459.6342         5.9     -1498484.1804        24.5461 4h54m18s/Msamples
+          14000  -1556122.0263         6.4     -1556146.4004        24.3741 4h49m22s/Msamples
+          15000  -1680579.8306         8.4     -1680600.8678        21.0371 4h45m31s/Msamples
+          16000  -1542109.5119         9.0     -1542121.6357        12.1238 4h34m55s/Msamples
+          17000  -1701968.6605         9.3     -1701986.6679        18.0073 4h35m14s/Msamples
+          18000  -1530322.9268        10.2     -1530329.5416         6.6148 4h32m4s/Msamples
+          19000  -1565964.2228        17.3     -1565979.1463        14.9235 4h30m10s/Msamples
+          20000  -1596178.5740        19.0     -1596195.1769        16.6029 4h27m55s/Msamples
+          21000  -1495993.9485        20.0     -1495998.3065         4.3580 4h30m13s/Msamples
+          22000  -1526875.4159        19.5     -1526888.3952        12.9792 4h29m1s/Msamples
+          23000  -1542679.0339        18.9     -1542678.0022        -1.0316 4h30m41s/Msamples
+          24000  -1553420.8092        19.2     -1553424.6252         3.8159 4h32m13s/Msamples
+          25000  -1645150.9855        22.3     -1645154.4061         3.4205 4h33m42s/Msamples
+          26000  -1580905.4025        22.9     -1580896.4956        -8.9068 4h32m38s/Msamples
+          27000  -1584531.0062        23.3     -1584498.7227       -32.2835 4h34m46s/Msamples
+          28000  -1566356.3036        24.2     -1566332.3881       -23.9154 4h37m10s/Msamples
+          29000  -1541997.0029        27.0     -1541980.8902       -16.1126 4h38m34s/Msamples
+          30000  -1599936.8708        28.0     -1599921.2697       -15.6010 4h42m29s/Msamples
+          31000  -1646906.6424        29.0     -1646888.9817       -17.6607 4h45m45s/Msamples
+          32000  -1537504.0589        30.0     -1537490.1836       -13.8753 4h48m17s/Msamples
+          33000  -1587836.1068        31.0     -1587818.5080       -17.5987 4h47m50s/Msamples
+          34000  -1497492.6727        32.0     -1497478.9959       -13.6768 4h49m8s/Msamples
+          35000  -1562481.5197        33.0     -1562439.2130       -42.3066 4h50m5s/Msamples
+          36000  -1492555.0840        34.0     -1492515.8827       -39.2012 4h51m26s/Msamples
+          37000  -1521565.9665        32.0     -1521509.6343       -56.3321 4h51m32s/Msamples
+          38000  -1581163.0679        33.9     -1581112.6647       -50.4032 4h52m9s/Msamples
+          39000  -1561474.7549        34.0     -1561416.7859       -57.9689 4h51m7s/Msamples
+          40000  -1544066.4991        34.9     -1543997.3318       -69.1673 4h50m27s/Msamples
+          41000  -1559025.6699        35.5     -1558967.5171       -58.1528 4h52m18s/Msamples
+          42000  -1691706.2736        39.0     -1691627.9025       -78.3710 4h51m44s/Msamples
+          43000  -1641108.8023        36.4     -1641015.4392       -93.3631 4h50m37s/Msamples
+          44000  -1573873.5373        37.4     -1573794.6924       -78.8449 4h49m31s/Msamples
+          45000  -1512162.4447        41.4     -1512078.8762       -83.5684 4h49m57s/Msamples
+          46000  -1549879.4845        41.2     -1549791.9541       -87.5303 4h49m44s/Msamples
+          47000  -1512365.3024        38.6     -1512295.3419       -69.9605 4h49m24s/Msamples
+          48000  -1549082.7454        38.4     -1549013.4040       -69.3414 4h48m49s/Msamples
+          49000  -1580646.1220        36.7     -1580576.7955       -69.3264 4h48m44s/Msamples
+          50000  -1542211.5547        37.4     -1542136.4131       -75.1416 4h48m43s/Msamples
+          51000  -1559023.0963        38.1     -1558939.5150       -83.5813 4h48m14s/Msamples
+          52000  -1704923.4674        43.0     -1704844.7821       -78.6853 4h47m45s/Msamples
+          53000  -1551581.4303        45.7     -1551524.1954       -57.2348 4h47m12s/Msamples
+          54000  -1561940.0142        47.5     -1561878.1003       -61.9139 4h45m39s/Msamples
+          55000  -1647862.0588        50.3     -1647809.8337       -52.2250 4h44m56s/Msamples
+          56000  -1572884.1581        51.4     -1572833.8683       -50.2898 4h44m21s/Msamples
+          57000  -1555882.3632        53.0     -1555837.7971       -44.5661 4h44m15s/Msamples
+          58000  -1539271.0050        54.0     -1539229.9263       -41.0787 4h44m14s/Msamples
+          59000  -1570164.8448        54.0     -1570124.4201       -40.4246 4h43m32s/Msamples
+          60000  -1548045.6967        54.6     -1548002.1809       -43.5157 4h43m40s/Msamples
+Turning on scaling to prevent numeric instability 1.0201
+          61000  -1614908.2144        56.0     -1614855.4889       -52.7254 4h47m14s/Msamples
+          62000  -1581212.1056        57.0     -1581158.1644       -53.9412 4h56m57s/Msamples
+          63000  -1606375.6540        57.1     -1606319.2042       -56.4498 5h7m9s/Msamples
+          64000  -1614426.6372        56.8     -1614368.1007       -58.5365 5h18m34s/Msamples
+          65000  -1745544.5250        50.8     -1745492.6227       -51.9023 5h29m2s/Msamples
+          66000  -1661642.8249        44.4     -1661593.9777       -48.8471 5h38m51s/Msamples
+          67000  -1541870.9470        49.1     -1541816.3544       -54.5926 5h47m28s/Msamples
+          68000  -1721866.8829        45.4     -1721803.4134       -63.4694 5h56m14s/Msamples
+          69000  -1626471.5715        40.9     -1626410.5546       -61.0169 6h5m49s/Msamples
+          70000  -1636140.3193        38.4     -1636081.7711       -58.5481 6h14m18s/Msamples
+          71000  -1657737.5322        36.0     -1657679.9802       -57.5519 6h23m18s/Msamples
+          72000  -1620046.6978        34.3     -1619986.0251       -60.6727 6h30m39s/Msamples
+          73000  -1695833.1171        17.9     -1695778.6748       -54.4423 6h37m26s/Msamples
+          74000  -1672774.1187        15.9     -1672727.1077       -47.0110 6h44m28s/Msamples
+          75000  -1665654.8041        14.2     -1665602.2386       -52.5655 6h51m43s/Msamples
+          76000  -1637659.0569        13.4     -1637605.2254       -53.8315 6h58m2s/Msamples
+          77000  -1661645.8640        12.3     -1661571.8364       -74.0275 7h4m20s/Msamples
+          78000  -1675712.7171        11.3     -1675643.3065       -69.4106 7h10m33s/Msamples
+          79000  -1897638.4587        10.2     -1897551.7115       -86.7472 7h16m20s/Msamples
+          80000  -1847288.0665         9.2     -1847189.5445       -98.5219 7h21m35s/Msamples
+          81000  -1816406.7140         8.3     -1816300.1810      -106.5330 7h27m16s/Msamples
+          82000  -1822003.2235         7.6     -1821899.5928      -103.6307 7h32m28s/Msamples
+          83000  -1737099.2785         7.2     -1737005.5169       -93.7616 7h37m47s/Msamples
+          84000  -1776435.2768         6.8     -1776351.6079       -83.6689 7h43m19s/Msamples
+          85000  -1701681.0288         6.5     -1701593.9172       -87.1116 7h48m20s/Msamples
+          86000  -1738418.4943         6.2     -1738304.6042      -113.8900 7h55m21s/Msamples
+          87000  -1672861.2156         6.1     -1672740.2608      -120.9547 8h1m39s/Msamples
+          88000  -2119574.0078         6.4     -2119470.4029      -103.6049 8h7m33s/Msamples
+          89000  -1861720.5686         5.9     -1861596.9876      -123.5809 8h13m24s/Msamples
+          90000  -1807962.4111         5.6     -1807839.2266      -123.1845 8h19m17s/Msamples
+          91000  -1874216.2506         5.4     -1874112.9637      -103.2868 8h23m55s/Msamples
+          92000  -1900060.8755         5.1     -1899955.9957      -104.8798 8h27m33s/Msamples
+          93000  -1812044.1016         4.9     -1811941.4195      -102.6820 8h31m6s/Msamples
+          94000  -1723909.1336         4.8     -1723799.9499      -109.1837 8h34m49s/Msamples
+          95000  -1738984.5605         4.7     -1738870.4406      -114.1199 8h38m36s/Msamples
+          96000  -1909848.3883         4.6     -1909719.7519      -128.6363 8h42m5s/Msamples
+          97000  -1705288.7259         4.5     -1705159.9863      -128.7395 8h45m30s/Msamples
+          98000  -1709481.5422         4.5     -1709353.7010      -127.8411 8h49m14s/Msamples
+          99000  -1864849.1383         4.3     -1864721.4314      -127.7069 8h53m27s/Msamples
+         100000  -1853603.6428         4.2     -1853483.8669      -119.7759 8h58m33s/Msamples
+Operator                                             Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(RateACScaler.s:mb)                     0.2562         36         28     0.0007     0.5625 Try setting scaleFactor to about 0.066
+ScaleOperator(RateAGScaler.s:mb)                     0.3188         26         30     0.0007     0.4643 Try setting scaleFactor to about 0.103
+ScaleOperator(RateATScaler.s:mb)                     0.3316         32         23     0.0007     0.5818 Try setting scaleFactor to about 0.11
+ScaleOperator(RateCGScaler.s:mb)                     0.2599         49         27     0.0007     0.6447 Try setting scaleFactor to about 0.068
+ScaleOperator(RateGTScaler.s:mb)                     0.2859         30         22     0.0007     0.5769 Try setting scaleFactor to about 0.082
+ScaleOperator(ucldMeanScaler.c:mb)                   0.1994        338        424     0.0074     0.4436 Try setting scaleFactor to about 0.047
+ScaleOperator(ucldStdevScaler.c:mb)                  0.2002        971       1240     0.0223     0.4392 Try setting scaleFactor to about 0.049
+IntRandomWalkOperator(CategoriesRandomWalk.c:mb)          -       4904       2481     0.0742     0.6640 
+SwapOperator(CategoriesSwapOperator.c:mb)                 -       7368          0     0.0742     1.0000 
+UniformOperator(CategoriesUniform.c:mb)                   -       7647          0     0.0742     1.0000 
+UpDownOperator(relaxedUpDownOperator.c:mb)           0.4094         26       2210     0.0223     0.0116 Try setting scaleFactor to about 0.64
+ScaleOperator(originScalerFBD.t:mb)                  0.6092        668       1549     0.0223     0.3013 
+ScaleOperator(divRateScalerFBD.t:mb)                 0.5572       2773       4756     0.0742     0.3683 
+ScaleOperator(turnoverScalerFBD.t:mb)                0.5979         13       7356     0.0742     0.0018 Try setting scaleFactor to about 0.773
+ScaleOperator(samplingPScalerFBD.t:mb)               0.3315       3372       3997     0.0742     0.4576 Try setting scaleFactor to about 0.115
+LeafToSampledAncestorJump(LeafToSAFBD.t:mb)               -         93       7249     0.0742     0.0127 
+SAWilsonBalding(SAWilsonBaldingFBD.t:mb)                  -       2288       5238     0.0742     0.3040 
+SAExchange(SAWideFBD.t:mb)                                -       2549       4730     0.0742     0.3502 
+SAExchange(SANarrowFBD.t:mb)                              -       4770       2662     0.0742     0.6418 
+SAUniform(SAUniformOperatorFBD.t:mb)                      -      11291       3595     0.1485     0.7585 
+SAScaleOperator(SATreeRootScalerFBD.t:mb)            0.7800        249        494     0.0074     0.3351 
+SAScaleOperator(SATreeScalerFBD.t:mb)                0.9124        246       1998     0.0223     0.1096 
+ScaleOperator(gammaShapeScaler.s:mb)                 0.2614         39         33     0.0007     0.5417 Try setting scaleFactor to about 0.068
+DeltaExchangeOperator(FrequenciesExchanger.s:mb)     0.1562         79          2     0.0007     0.9753 Try setting delta to about 0.312
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 3073.606 seconds
+End likelihood: -119.77595802953822
+
+Loading /Users/apple/Desktop/EEOB563/final_project/seq_run1_relaxed_lgNormal/step0/likelihood.log, burnin 50%, skipping 500 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+***********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+marginalLs[0 ] = -786088.3495743998
+********************************************************************************
+
+
+Loading /Users/apple/Desktop/EEOB563/final_project/seq_run1_relaxed_lgNormal/step1/likelihood.log, burnin 50%, skipping 500 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+***********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+marginalLs[1 ] = -1708809.9871905264
+
+Step        theta         likelihood   contribution ESS
+0            1            -786088.3496 -∞           4.4563       
+1            0            -1708809.9872 0            4.2878       
+
+marginal L estimate = -Infinity
+
+
+Total wall time: 6822 seconds
+Done

@@ -1,0 +1,553 @@
+  Using BEAGLE version: 2.1.2 resource 0: CPU
+    with instance flags:  PRECISION_DOUBLE COMPUTATION_SYNCH EIGEN_REAL SCALING_MANUAL SCALERS_RAW VECTOR_NONE THREADING_NONE PROCESSOR_CPU FRAMEWORK_CPU
+  Ignoring ambiguities in tree likelihood.
+  Ignoring character uncertainty in tree likelihood.
+  With 10991 unique site patterns.
+  Using rescaling scheme : dynamic
+/Users/apple/Desktop/EEOB563/final_project/round2/run1/step0/run.sh
+
+                        BEAST v2.3.2, 2002-2015
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                     Department of Computer Science
+                         University of Auckland
+                        remco@cs.auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+                 Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 1549368879
+
+File: beast.xml seed: 1549368879 threads: 1
+Loading package MODEL-SELECTION v1.1.3
+Loading package SA v1.1.3
+DQ355297_1|Semnopithecus_entellus|Primates|10: 15401 4
+DQ355298_1|Nasalis_larvatus|Primates|10: 15401 4
+DQ355299_1|Presbytis_melalophos|Primates|10: 15401 4
+DQ355302_1|Pygathrix_nemaeus|Primates|10: 15401 4
+EF537576_1|Iphiteon_panicea|Hexactinellida|0: 15401 4
+EF537577_1|Sympagella_nux|Hexactinellida|0: 15401 4
+FJ785421_1|Aotus_lemurinus|Primates|12.1: 15401 4
+FJ785422_1|Ateles_belzebuth|Primates|31.5: 15401 4
+FJ785423_1|Callicebus_donacophilus|Primates|31.5: 15401 4
+FJ785424_1|Saguinus_oedipus|Primates|31.5: 15401 4
+FJ785425_1|Saimiri_sciureus|Primates|31.5: 15401 4
+FJ785426_1|Theropithecus_gelada|Primates|3.5: 15401 4
+FR695060_1|Homo_sp_|Primates|6: 15401 4
+NC_001645_1|Gorilla_gorilla|Primates|10: 15401 4
+NC_001646_1|Pongo_pygmaeus|Primates|12.5: 15401 4
+NC_005089_1|Mus_musculus|Non-primates|11.1: 15401 4
+NC_005943_1|Macaca_mulatta|Primates|5.5: 15401 4
+NC_006853_1|Bos_taurus|Non-primates|18.3: 15401 4
+NC_006900_1|Trachypithecus_obscurus|Primates|10: 15401 4
+NC_010201_1|Amphimedon_compressa|Demospongiae|0: 15401 4
+NC_010202_1|Ephydatia_muelleri|Demospongiae|0: 15401 4
+NC_010203_1|Aplysina_fulva|Demospongiae|0: 15401 4
+NC_010211_1|Xestospongia_muta|Demospongiae|0: 15401 4
+NC_010217_1|Plakinastrella_cf_|Homoscleromorpha|0: 15401 4
+NC_011519_1|Macaca_thibetana|Primates|5.5: 15401 4
+NC_035983_1|Oscarella_pearsei|Homoscleromorpha|0: 15401 4
+Alignment(seq_fossil_sele)
+  26 taxa
+  15401 sites
+  10991 patterns
+
+DQ355297_1|Semnopithecus_entellus|Primates|10 = 10.0 (21.5)
+DQ355298_1|Nasalis_larvatus|Primates|10 = 10.0 (21.5)
+DQ355299_1|Presbytis_melalophos|Primates|10 = 10.0 (21.5)
+DQ355302_1|Pygathrix_nemaeus|Primates|10 = 10.0 (21.5)
+EF537576_1|Iphiteon_panicea|Hexactinellida|0 = 0.0 (31.5)
+EF537577_1|Sympagella_nux|Hexactinellida|0 = 0.0 (31.5)
+FJ785421_1|Aotus_lemurinus|Primates|12.1 = 12.1 (19.4)
+FJ785422_1|Ateles_belzebuth|Primates|31.5 = 31.5 (0.0)
+FJ785423_1|Callicebus_donacophilus|Primates|31.5 = 31.5 (0.0)
+FJ785424_1|Saguinus_oedipus|Primates|31.5 = 31.5 (0.0)
+FJ785425_1|Saimiri_sciureus|Primates|31.5 = 31.5 (0.0)
+FJ785426_1|Theropithecus_gelada|Primates|3.5 = 3.5 (28.0)
+FR695060_1|Homo_sp_|Primates|6 = 6.0 (25.5)
+NC_001645_1|Gorilla_gorilla|Primates|10 = 10.0 (21.5)
+NC_001646_1|Pongo_pygmaeus|Primates|12.5 = 12.5 (19.0)
+NC_005089_1|Mus_musculus|Non-primates|11.1 = 11.1 (20.4)
+NC_005943_1|Macaca_mulatta|Primates|5.5 = 5.5 (26.0)
+NC_006853_1|Bos_taurus|Non-primates|18.3 = 18.3 (13.2)
+NC_006900_1|Trachypithecus_obscurus|Primates|10 = 10.0 (21.5)
+NC_010201_1|Amphimedon_compressa|Demospongiae|0 = 0.0 (31.5)
+NC_010202_1|Ephydatia_muelleri|Demospongiae|0 = 0.0 (31.5)
+NC_010203_1|Aplysina_fulva|Demospongiae|0 = 0.0 (31.5)
+NC_010211_1|Xestospongia_muta|Demospongiae|0 = 0.0 (31.5)
+NC_010217_1|Plakinastrella_cf_|Homoscleromorpha|0 = 0.0 (31.5)
+NC_011519_1|Macaca_thibetana|Primates|5.5 = 5.5 (26.0)
+NC_035983_1|Oscarella_pearsei|Homoscleromorpha|0 = 0.0 (31.5)
+  UCRelaxedClockModel: using 50 rate categories to approximate rate distribution across branches.
+TreeLikelihood(treeLikelihood.seq_fossil_sele) uses BeerLikelihoodCore4
+  Alignment(seq_fossil_sele): [taxa, patterns, sites] = [26, 10991, 15401]
+===============================================================================
+Citations for this model:
+
+Bouckaert RR, Heled J, Kuehnert D, Vaughan TG, Wu C-H, Xie D, Suchard MA,
+  Rambaut A, Drummond AJ (2014) BEAST 2: A software platform for Bayesian
+  evolutionary analysis. PLoS Computational Biology 10(4): e1003537
+
+Gavryushkina A, Welch D, Stadler T, Drummond AJ (2014) 
+Bayesian inference of sampled ancestor trees for epidemiology and fossil calibration. 
+PLoS Comput Biol 10(12): e1003919. doi:10.1371/journal.pcbi.1003919
+
+Drummond AJ, Ho SYW, Phillips MJ, Rambaut A (2006) Relaxed Phylogenetics and
+  Dating with Confidence. PLoS Biol 4(5): e88
+
+===============================================================================
+Start likelihood: -295822.4123394569 
+Writing file seq_fossil_sele.log
+         Sample      posterior ESS(posterior)     likelihood          prior
+Writing file seq_fossil_sele.trees
+Writing file likelihood.log
+              0   -192665.9547              N   -192560.8935      -105.0612 --
+           1000   -192665.3681         2.0      -192559.8617      -105.5063 --
+           2000   -192663.9176         3.0      -192559.9491      -103.9685 --
+           3000   -192654.7248         4.0      -192551.7722      -102.9526 --
+           4000   -192656.3593         4.2      -192553.3326      -103.0267 --
+           5000   -192651.4877         2.4      -192548.0775      -103.4101 --
+           6000   -192653.3213         2.4      -192548.3286      -104.9927 --
+           7000   -192651.7998         2.5      -192546.4271      -105.3726 --
+           8000   -192655.5520         2.7      -192552.4078      -103.1442 --
+           9000   -192620.3929         6.2      -192517.5488      -102.8441 --
+          10000   -192629.0897         4.9      -192525.3123      -103.7773 --
+          11000   -192624.9300         3.7      -192522.2807      -102.6493 1h22m2s/Msamples
+          12000   -192632.8640         3.5      -192529.7437      -103.1203 1h21m57s/Msamples
+          13000   -192637.8059         3.2      -192530.5997      -107.2062 1h20m14s/Msamples
+          14000   -192617.3357         3.2      -192513.2824      -104.0533 1h20m30s/Msamples
+          15000   -192601.2539         2.9      -192498.2893      -102.9646 1h20m5s/Msamples
+          16000   -192611.8695         2.8      -192506.8759      -104.9935 1h20m16s/Msamples
+          17000   -192586.3511         2.9      -192484.0881      -102.2629 1h20m18s/Msamples
+          18000   -192591.9836         2.9      -192489.0444      -102.9392 1h20m45s/Msamples
+          19000   -192555.1432         3.2      -192452.5221      -102.6210 1h20m17s/Msamples
+          20000   -192551.0487         3.1      -192446.7673      -104.2814 1h20m16s/Msamples
+          21000   -192551.9266         3.0      -192449.2502      -102.6763 1h20m38s/Msamples
+          22000   -192544.9768         2.9      -192442.8064      -102.1703 1h20m22s/Msamples
+          23000   -192543.0799         2.8      -192439.8381      -103.2417 1h20m15s/Msamples
+          24000   -192546.1468         2.7      -192442.3663      -103.7804 1h20m12s/Msamples
+          25000   -192554.1737         2.6      -192450.9101      -103.2636 1h19m59s/Msamples
+          26000   -192548.0216         2.5      -192445.7585      -102.2630 1h20m10s/Msamples
+          27000   -192548.1356         2.4      -192445.2066      -102.9290 1h20m40s/Msamples
+          28000   -192541.4714         2.4      -192437.6165      -103.8549 1h20m36s/Msamples
+          29000   -192542.9359         2.4      -192440.0960      -102.8399 1h20m23s/Msamples
+          30000   -192546.4763         2.4      -192442.6313      -103.8449 1h20m34s/Msamples
+          31000   -192540.8634         2.3      -192436.1551      -104.7083 1h20m35s/Msamples
+          32000   -192533.6746         2.4      -192429.1574      -104.5171 1h20m36s/Msamples
+          33000   -192521.9170         2.4      -192419.0349      -102.8820 1h20m35s/Msamples
+          34000   -192516.4784         2.4      -192413.1925      -103.2858 1h20m35s/Msamples
+          35000   -192519.2633         2.5      -192414.6119      -104.6513 1h20m28s/Msamples
+          36000   -192519.8405         2.5      -192415.1321      -104.7083 1h20m29s/Msamples
+          37000   -192516.0737         2.5      -192409.6847      -106.3890 1h20m38s/Msamples
+          38000   -192517.9589         2.5      -192410.7974      -107.1615 1h20m35s/Msamples
+          39000   -192521.1748         2.6      -192417.0450      -104.1297 1h20m35s/Msamples
+          40000   -192518.3454         2.6      -192413.4438      -104.9016 1h20m29s/Msamples
+          41000   -192504.8514         2.6      -192400.0698      -104.7816 1h20m33s/Msamples
+          42000   -192505.2239         2.7      -192397.5007      -107.7231 1h20m39s/Msamples
+          43000   -192503.8234         2.7      -192397.5421      -106.2812 1h20m43s/Msamples
+          44000   -192506.5127         2.7      -192396.7739      -109.7387 1h20m46s/Msamples
+          45000   -192509.1299         2.7      -192401.1308      -107.9991 1h20m38s/Msamples
+          46000   -192515.2211         2.7      -192403.3191      -111.9020 1h20m32s/Msamples
+          47000   -192500.7491         2.7      -192392.5218      -108.2272 1h20m39s/Msamples
+          48000   -192498.7477         2.7      -192393.3117      -105.4359 1h20m34s/Msamples
+          49000   -192497.3150         2.8      -192393.0373      -104.2777 1h20m31s/Msamples
+          50000   -192489.4447         2.8      -192384.3312      -105.1134 1h20m32s/Msamples
+          51000   -192492.1929         2.8      -192386.6394      -105.5535 1h20m37s/Msamples
+          52000   -192495.4924         2.8      -192391.3506      -104.1417 1h20m43s/Msamples
+          53000   -192483.2789         2.9      -192378.3595      -104.9193 1h20m40s/Msamples
+          54000   -192494.7612         2.9      -192391.1187      -103.6424 1h20m37s/Msamples
+          55000   -192479.9345         2.9      -192374.4671      -105.4673 1h20m40s/Msamples
+          56000   -192469.6019         2.9      -192364.0679      -105.5340 1h20m34s/Msamples
+          57000   -192470.2750         2.9      -192365.8255      -104.4495 1h20m30s/Msamples
+          58000   -192473.5703         2.9      -192367.1142      -106.4561 1h20m27s/Msamples
+          59000   -192473.5131         2.9      -192367.8732      -105.6399 1h20m30s/Msamples
+          60000   -192465.4379         2.9      -192360.3272      -105.1106 1h20m31s/Msamples
+          61000   -192468.6308         2.9      -192361.5060      -107.1248 1h20m25s/Msamples
+          62000   -192468.9948         2.9      -192363.5221      -105.4727 1h20m21s/Msamples
+          63000   -192468.4137         2.9      -192360.6029      -107.8107 1h20m20s/Msamples
+          64000   -192473.4213         2.9      -192364.5942      -108.8270 1h20m21s/Msamples
+          65000   -192475.1881         2.9      -192369.3209      -105.8672 1h20m26s/Msamples
+          66000   -192471.6473         2.9      -192361.2295      -110.4178 1h20m25s/Msamples
+          67000   -192472.1516         2.9      -192362.7473      -109.4043 1h20m26s/Msamples
+          68000   -192471.1277         2.9      -192361.4417      -109.6859 1h20m24s/Msamples
+          69000   -192469.3569         2.9      -192361.3974      -107.9595 1h20m17s/Msamples
+          70000   -192471.4603         2.9      -192364.3540      -107.1063 1h20m17s/Msamples
+          71000   -192467.9125         2.9      -192361.3516      -106.5609 1h20m10s/Msamples
+          72000   -192478.1709         2.9      -192372.1709      -106.0000 1h20m4s/Msamples
+          73000   -192476.3068         2.9      -192368.3943      -107.9124 1h20m2s/Msamples
+          74000   -192471.9907         2.9      -192366.5975      -105.3932 1h20m6s/Msamples
+          75000   -192445.3205         2.9      -192339.8665      -105.4539 1h20m7s/Msamples
+          76000   -192439.7415         2.9      -192334.0823      -105.6591 1h20m12s/Msamples
+          77000   -192438.2590         2.9      -192332.0278      -106.2312 1h20m12s/Msamples
+          78000   -192442.8523         2.9      -192337.3621      -105.4901 1h20m16s/Msamples
+          79000   -192421.0915         2.9      -192317.0367      -104.0547 1h20m14s/Msamples
+          80000   -192393.2808         3.0      -192288.2476      -105.0331 1h20m8s/Msamples
+          81000   -192387.5906         3.0      -192280.3723      -107.2183 1h20m7s/Msamples
+          82000   -192369.2461         3.1      -192264.2964      -104.9496 1h20m7s/Msamples
+          83000   -192360.5432         3.1      -192254.1914      -106.3517 1h20m7s/Msamples
+          84000   -192365.4388         3.1      -192255.6695      -109.7693 1h20m5s/Msamples
+          85000   -192371.4230         3.1      -192261.0099      -110.4131 1h20m5s/Msamples
+          86000   -192380.3525         3.1      -192268.0708      -112.2817 1h20m6s/Msamples
+          87000   -192374.8719         3.1      -192266.5487      -108.3232 1h20m5s/Msamples
+          88000   -192365.3528         3.1      -192256.9485      -108.4042 1h20m7s/Msamples
+          89000   -192366.0717         3.1      -192259.7198      -106.3519 1h20m10s/Msamples
+          90000   -192357.3596         3.1      -192251.3850      -105.9745 1h20m6s/Msamples
+          91000   -192362.5973         3.1      -192256.3695      -106.2277 1h20m6s/Msamples
+          92000   -192356.6284         3.1      -192249.9817      -106.6466 1h20m3s/Msamples
+          93000   -192362.9616         3.1      -192256.1982      -106.7633 1h20m3s/Msamples
+          94000   -192359.4633         3.0      -192253.0351      -106.4282 1h20m4s/Msamples
+          95000   -192355.5514         3.0      -192250.6289      -104.9224 1h20m6s/Msamples
+          96000   -192360.0009         3.0      -192254.3637      -105.6371 1h20m5s/Msamples
+          97000   -192355.1258         3.0      -192249.9865      -105.1393 1h20m5s/Msamples
+          98000   -192353.2104         3.0      -192247.4899      -105.7204 1h20m5s/Msamples
+          99000   -192356.6801         3.0      -192249.1903      -107.4898 1h20m2s/Msamples
+         100000   -192355.6066         2.9      -192244.0159      -111.5906 1h20m5s/Msamples
+Operator                                                          Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(RateACScaler.s:seq_fossil_sele)                     0.6566          3         83     0.0007     0.0349 Try setting scaleFactor to about 0.81
+ScaleOperator(RateAGScaler.s:seq_fossil_sele)                     0.6691          7         77     0.0007     0.0833 Try setting scaleFactor to about 0.818
+ScaleOperator(RateATScaler.s:seq_fossil_sele)                     0.6627          6         74     0.0007     0.0750 Try setting scaleFactor to about 0.814
+ScaleOperator(RateCGScaler.s:seq_fossil_sele)                     0.6203         11         64     0.0007     0.1467 
+ScaleOperator(RateGTScaler.s:seq_fossil_sele)                     0.5469          7         53     0.0007     0.1167 
+ScaleOperator(gammaShapeScaler.s:seq_fossil_sele)                 0.5592          2         60     0.0007     0.0323 Try setting scaleFactor to about 0.748
+ScaleOperator(ucldMeanScaler.c:seq_fossil_sele)                   0.7711         27        665     0.0074     0.0390 Try setting scaleFactor to about 0.878
+ScaleOperator(ucldStdevScaler.c:seq_fossil_sele)                  0.8255         55       2261     0.0223     0.0237 Try setting scaleFactor to about 0.909
+IntRandomWalkOperator(CategoriesRandomWalk.c:seq_fossil_sele)          -       1325       6148     0.0742     0.1773 
+SwapOperator(CategoriesSwapOperator.c:seq_fossil_sele)                 -        223       7234     0.0742     0.0299 
+UniformOperator(CategoriesUniform.c:seq_fossil_sele)                   -        369       7046     0.0742     0.0498 
+UpDownOperator(relaxedUpDownOperator.c:seq_fossil_sele)           0.9082          1       2225     0.0223     0.0004 Try setting scaleFactor to about 0.953
+ScaleOperator(originScalerFBD.t:seq_fossil_sele)                  0.7139        575       1587     0.0223     0.2660 
+ScaleOperator(divRateScalerFBD.t:seq_fossil_sele)                 0.4789       3052       4456     0.0742     0.4065 Try setting scaleFactor to about 0.278
+ScaleOperator(turnoverScalerFBD.t:seq_fossil_sele)                0.9069        611       6675     0.0742     0.0839 Try setting scaleFactor to about 0.952
+ScaleOperator(samplingPScalerFBD.t:seq_fossil_sele)               0.3373       3472       3978     0.0742     0.4660 Try setting scaleFactor to about 0.115
+LeafToSampledAncestorJump(LeafToSAFBD.t:seq_fossil_sele)               -          0       7507     0.0742     0.0000 
+SAWilsonBalding(SAWilsonBaldingFBD.t:seq_fossil_sele)                  -          0       7448     0.0742     0.0000 
+SAExchange(SAWideFBD.t:seq_fossil_sele)                                -          1       7347     0.0742     0.0001 
+SAExchange(SANarrowFBD.t:seq_fossil_sele)                              -          3       7438     0.0742     0.0004 
+SAUniform(SAUniformOperatorFBD.t:seq_fossil_sele)                      -        663      14122     0.1485     0.0448 
+SAScaleOperator(SATreeRootScalerFBD.t:seq_fossil_sele)            0.9679        111        655     0.0074     0.1449 
+SAScaleOperator(SATreeScalerFBD.t:seq_fossil_sele)                0.9839         11       2191     0.0223     0.0050 Try setting scaleFactor to about 0.992
+DeltaExchangeOperator(FrequenciesExchanger.s:seq_fossil_sele)     0.0182         21         51     0.0007     0.2917 
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 960.687 seconds
+End likelihood: -192355.60666404627
+/Users/apple/Desktop/EEOB563/final_project/round2/run1/step1/run.sh
+
+                        BEAST v2.3.2, 2002-2015
+             Bayesian Evolutionary Analysis Sampling Trees
+                       Designed and developed by
+ Remco Bouckaert, Alexei J. Drummond, Andrew Rambaut & Marc A. Suchard
+                                    
+                     Department of Computer Science
+                         University of Auckland
+                        remco@cs.auckland.ac.nz
+                        alexei@cs.auckland.ac.nz
+                                    
+                   Institute of Evolutionary Biology
+                        University of Edinburgh
+                           a.rambaut@ed.ac.uk
+                                    
+                    David Geffen School of Medicine
+                 University of California, Los Angeles
+                           msuchard@ucla.edu
+                                    
+                      Downloads, Help & Resources:
+                           http://beast2.org/
+                                    
+  Source code distributed under the GNU Lesser General Public License:
+                   http://github.com/CompEvol/beast2
+                                    
+                           BEAST developers:
+   Alex Alekseyenko, Trevor Bedford, Erik Bloomquist, Joseph Heled, 
+ Sebastian Hoehna, Denise Kuehnert, Philippe Lemey, Wai Lok Sibon Li, 
+Gerton Lunter, Sidney Markowitz, Vladimir Minin, Michael Defoin Platel, 
+                 Oliver Pybus, Chieh-Hsi Wu, Walter Xie
+                                    
+                               Thanks to:
+          Roald Forsberg, Beth Shapiro and Korbinian Strimmer
+
+Random number seed: 284669428
+
+File: beast.xml seed: 284669428 threads: 1
+Resuming from file
+Loading package MODEL-SELECTION v1.1.3
+Loading package SA v1.1.3
+DQ355297_1|Semnopithecus_entellus|Primates|10: 15401 4
+DQ355298_1|Nasalis_larvatus|Primates|10: 15401 4
+DQ355299_1|Presbytis_melalophos|Primates|10: 15401 4
+DQ355302_1|Pygathrix_nemaeus|Primates|10: 15401 4
+EF537576_1|Iphiteon_panicea|Hexactinellida|0: 15401 4
+EF537577_1|Sympagella_nux|Hexactinellida|0: 15401 4
+FJ785421_1|Aotus_lemurinus|Primates|12.1: 15401 4
+FJ785422_1|Ateles_belzebuth|Primates|31.5: 15401 4
+FJ785423_1|Callicebus_donacophilus|Primates|31.5: 15401 4
+FJ785424_1|Saguinus_oedipus|Primates|31.5: 15401 4
+FJ785425_1|Saimiri_sciureus|Primates|31.5: 15401 4
+FJ785426_1|Theropithecus_gelada|Primates|3.5: 15401 4
+FR695060_1|Homo_sp_|Primates|6: 15401 4
+NC_001645_1|Gorilla_gorilla|Primates|10: 15401 4
+NC_001646_1|Pongo_pygmaeus|Primates|12.5: 15401 4
+NC_005089_1|Mus_musculus|Non-primates|11.1: 15401 4
+NC_005943_1|Macaca_mulatta|Primates|5.5: 15401 4
+NC_006853_1|Bos_taurus|Non-primates|18.3: 15401 4
+NC_006900_1|Trachypithecus_obscurus|Primates|10: 15401 4
+NC_010201_1|Amphimedon_compressa|Demospongiae|0: 15401 4
+NC_010202_1|Ephydatia_muelleri|Demospongiae|0: 15401 4
+NC_010203_1|Aplysina_fulva|Demospongiae|0: 15401 4
+NC_010211_1|Xestospongia_muta|Demospongiae|0: 15401 4
+NC_010217_1|Plakinastrella_cf_|Homoscleromorpha|0: 15401 4
+NC_011519_1|Macaca_thibetana|Primates|5.5: 15401 4
+NC_035983_1|Oscarella_pearsei|Homoscleromorpha|0: 15401 4
+Alignment(seq_fossil_sele)
+  26 taxa
+  15401 sites
+  10991 patterns
+
+DQ355297_1|Semnopithecus_entellus|Primates|10 = 10.0 (21.5)
+DQ355298_1|Nasalis_larvatus|Primates|10 = 10.0 (21.5)
+DQ355299_1|Presbytis_melalophos|Primates|10 = 10.0 (21.5)
+DQ355302_1|Pygathrix_nemaeus|Primates|10 = 10.0 (21.5)
+EF537576_1|Iphiteon_panicea|Hexactinellida|0 = 0.0 (31.5)
+EF537577_1|Sympagella_nux|Hexactinellida|0 = 0.0 (31.5)
+FJ785421_1|Aotus_lemurinus|Primates|12.1 = 12.1 (19.4)
+FJ785422_1|Ateles_belzebuth|Primates|31.5 = 31.5 (0.0)
+FJ785423_1|Callicebus_donacophilus|Primates|31.5 = 31.5 (0.0)
+FJ785424_1|Saguinus_oedipus|Primates|31.5 = 31.5 (0.0)
+FJ785425_1|Saimiri_sciureus|Primates|31.5 = 31.5 (0.0)
+FJ785426_1|Theropithecus_gelada|Primates|3.5 = 3.5 (28.0)
+FR695060_1|Homo_sp_|Primates|6 = 6.0 (25.5)
+NC_001645_1|Gorilla_gorilla|Primates|10 = 10.0 (21.5)
+NC_001646_1|Pongo_pygmaeus|Primates|12.5 = 12.5 (19.0)
+NC_005089_1|Mus_musculus|Non-primates|11.1 = 11.1 (20.4)
+NC_005943_1|Macaca_mulatta|Primates|5.5 = 5.5 (26.0)
+NC_006853_1|Bos_taurus|Non-primates|18.3 = 18.3 (13.2)
+NC_006900_1|Trachypithecus_obscurus|Primates|10 = 10.0 (21.5)
+NC_010201_1|Amphimedon_compressa|Demospongiae|0 = 0.0 (31.5)
+NC_010202_1|Ephydatia_muelleri|Demospongiae|0 = 0.0 (31.5)
+NC_010203_1|Aplysina_fulva|Demospongiae|0 = 0.0 (31.5)
+NC_010211_1|Xestospongia_muta|Demospongiae|0 = 0.0 (31.5)
+NC_010217_1|Plakinastrella_cf_|Homoscleromorpha|0 = 0.0 (31.5)
+NC_011519_1|Macaca_thibetana|Primates|5.5 = 5.5 (26.0)
+NC_035983_1|Oscarella_pearsei|Homoscleromorpha|0 = 0.0 (31.5)
+  UCRelaxedClockModel: using 50 rate categories to approximate rate distribution across branches.
+TreeLikelihood(treeLikelihood.seq_fossil_sele) uses BeerLikelihoodCore4
+  Alignment(seq_fossil_sele): [taxa, patterns, sites] = [26, 10991, 15401]
+===============================================================================
+Citations for this model:
+
+Bouckaert RR, Heled J, Kuehnert D, Vaughan TG, Wu C-H, Xie D, Suchard MA,
+  Rambaut A, Drummond AJ (2014) BEAST 2: A software platform for Bayesian
+  evolutionary analysis. PLoS Computational Biology 10(4): e1003537
+
+Gavryushkina A, Welch D, Stadler T, Drummond AJ (2014) 
+Bayesian inference of sampled ancestor trees for epidemiology and fossil calibration. 
+PLoS Comput Biol 10(12): e1003919. doi:10.1371/journal.pcbi.1003919
+
+Drummond AJ, Ho SYW, Phillips MJ, Rambaut A (2006) Relaxed Phylogenetics and
+  Dating with Confidence. PLoS Biol 4(5): e88
+
+===============================================================================
+Restoring from file
+Start likelihood: -192355.60666404627 
+Writing file seq_fossil_sele.log
+         Sample      posterior ESS(posterior)     likelihood          prior
+Writing file seq_fossil_sele.trees
+Writing file likelihood.log
+              0   -192355.6066              N   -192244.0159      -111.5906 --
+           1000   -260981.7100         2.0      -260873.5690      -108.1409 --
+           2000   -310645.0741         3.0      -310526.9583      -118.1158 --
+           3000   -284117.9365         4.0      -284008.3533      -109.5832 --
+           4000   -270575.7809         5.0      -270453.9408      -121.8401 --
+           5000   -302159.1080         6.0      -302025.0761      -134.0318 --
+           6000   -307520.2180         7.0      -307377.9670      -142.2509 --
+           7000   -314162.2818         8.0      -314015.3272      -146.9545 --
+           8000   -302287.0001         5.4      -302151.9107      -135.0894 --
+           9000   -281711.1718         9.0      -281579.3796      -131.7921 --
+          10000   -284744.2562        10.0      -284607.4940      -136.7621 --
+          11000   -268564.9042        11.0      -268435.4350      -129.4692 1h3m42s/Msamples
+          12000   -280434.1475        10.5      -280309.5362      -124.6112 1h8m43s/Msamples
+          13000   -306378.6825        13.0      -306244.1600      -134.5224 1h10m21s/Msamples
+          14000   -279073.8848        14.0      -278938.6591      -135.2257 1h10m29s/Msamples
+          15000   -286945.5990        15.0      -286806.9534      -138.6455 1h12m2s/Msamples
+          16000   -279119.8508        16.0      -278985.7509      -134.0998 1h12m13s/Msamples
+          17000   -320140.1555        17.0      -320003.2621      -136.8934 1h14m19s/Msamples
+          18000   -302957.3941        18.0      -302816.3130      -141.0811 1h13m16s/Msamples
+Turning on scaling to prevent numeric instability 1.0201
+          19000   -366565.5349        10.9      -366423.0210      -142.5138 1h16m41s/Msamples
+          20000   -278685.6367        14.6      -278545.6301      -140.0066 1h24m14s/Msamples
+          21000   -289131.1344        16.5      -288993.6124      -137.5220 1h32m9s/Msamples
+          22000   -324986.7827        20.0      -324856.8885      -129.8941 1h38m52s/Msamples
+          23000   -322480.0766        13.9      -322349.4682      -130.6084 1h44m56s/Msamples
+          24000   -322807.5778        16.7      -322682.7657      -124.8120 1h49m15s/Msamples
+          25000   -285251.5847        19.2      -285109.0055      -142.5791 1h53m4s/Msamples
+          26000   -281769.2795        20.7      -281629.8727      -139.4068 1h57m17s/Msamples
+          27000   -292160.1003        21.0      -292022.1803      -137.9199 2h0m41s/Msamples
+          28000   -282929.4865        20.9      -282805.0484      -124.4380 2h3m18s/Msamples
+          29000   -302782.3847        19.7      -302656.5139      -125.8707 2h5m21s/Msamples
+          30000   -304831.2672        20.7      -304702.3507      -128.9165 2h7m16s/Msamples
+          31000   -295284.2852        21.5      -295153.8863      -130.3988 2h9m9s/Msamples
+          32000   -322404.6506        22.3      -322267.6095      -137.0411 2h10m39s/Msamples
+          33000   -326646.0118        21.9      -326521.2863      -124.7254 2h12m41s/Msamples
+          34000   -445722.4907        19.9      -445583.2269      -139.2637 2h14m7s/Msamples
+          35000   -302433.9654        20.7      -302290.6421      -143.3232 2h15m54s/Msamples
+          36000   -306526.3492        21.0      -306386.8056      -139.5436 2h16m41s/Msamples
+          37000   -305441.1859        21.6      -305298.3778      -142.8080 2h17m45s/Msamples
+          38000   -295909.1051        22.3      -295774.6949      -134.4102 2h19m18s/Msamples
+          39000   -446711.8734        27.3      -446580.3501      -131.5232 2h21m14s/Msamples
+          40000   -342287.3005        25.1      -342156.1612      -131.1392 2h22m24s/Msamples
+          41000   -344079.8765        22.5      -343948.6182      -131.2582 2h23m22s/Msamples
+          42000   -340905.8807        12.8      -340774.1941      -131.6865 2h23m45s/Msamples
+          43000   -375613.6604        10.5      -375475.5358      -138.1246 2h23m45s/Msamples
+          44000   -334129.5955         9.9      -333986.5162      -143.0792 2h24m39s/Msamples
+          45000   -323687.2700         9.7      -323532.6585      -154.6115 2h25m33s/Msamples
+          46000   -329420.3099         9.4      -329266.9366      -153.3733 2h26m29s/Msamples
+          47000   -382152.9501         8.8      -382005.6711      -147.2790 2h27m8s/Msamples
+          48000   -320128.2585         8.9      -319981.1619      -147.0965 2h27m32s/Msamples
+          49000   -336683.3907         9.1      -336554.8288      -128.5618 2h27m34s/Msamples
+          50000   -347324.4519         8.7      -347177.5873      -146.8646 2h27m45s/Msamples
+          51000   -321382.8638         8.8      -321254.0158      -128.8480 2h27m52s/Msamples
+          52000   -431035.1469         7.3      -430903.7093      -131.4376 2h28m3s/Msamples
+          53000   -504211.9674         6.9      -504077.1533      -134.8141 2h28m28s/Msamples
+          54000   -414532.4979         6.9      -414394.8433      -137.6545 2h28m48s/Msamples
+          55000   -396120.7906         6.4      -395983.4950      -137.2956 2h29m34s/Msamples
+          56000   -316477.0392         6.6      -316344.6436      -132.3955 2h30m17s/Msamples
+          57000   -339592.6893         6.7      -339463.9856      -128.7036 2h30m48s/Msamples
+          58000   -300042.2252         7.1      -299920.5135      -121.7117 2h31m43s/Msamples
+          59000   -293264.3723         7.7      -293130.9984      -133.3739 2h32m12s/Msamples
+          60000   -398109.5673         7.0      -397978.3269      -131.2403 2h32m46s/Msamples
+          61000   -357951.0776         6.9      -357820.6195      -130.4580 2h32m56s/Msamples
+          62000   -405804.0359         6.6      -405673.1762      -130.8597 2h33m11s/Msamples
+          63000   -378560.6634         6.4      -378426.0610      -134.6023 2h33m18s/Msamples
+          64000   -434005.0375         6.1      -433876.2644      -128.7731 2h33m27s/Msamples
+          65000   -329795.2805         6.3      -329666.1073      -129.1732 2h33m41s/Msamples
+          66000   -320841.2310         6.5      -320705.9900      -135.2409 2h33m49s/Msamples
+          67000   -309010.5561         6.8      -308880.5831      -129.9730 2h34m12s/Msamples
+          68000   -394327.1609         6.6      -394189.3179      -137.8430 2h34m13s/Msamples
+          69000   -324202.8234         6.9      -324069.1769      -133.6464 2h34m24s/Msamples
+          70000   -349291.8240         6.9      -349146.4122      -145.4117 2h34m16s/Msamples
+          71000   -355748.4779         6.9      -355607.1460      -141.3318 2h34m1s/Msamples
+          72000   -344294.4808         6.9      -344143.8168      -150.6640 2h34m3s/Msamples
+          73000   -349158.2137         6.9      -349004.2033      -154.0103 2h34m4s/Msamples
+          74000   -352548.5557         6.9      -352399.9151      -148.6405 2h33m58s/Msamples
+          75000   -366067.1325         6.8      -365921.1579      -145.9745 2h33m53s/Msamples
+          76000   -440663.0796         6.9      -440512.1977      -150.8819 2h33m50s/Msamples
+          77000   -401522.8335         6.8      -401368.0861      -154.7473 2h33m47s/Msamples
+          78000   -417453.9449         6.8      -417313.6002      -140.3446 2h33m33s/Msamples
+          79000   -416332.9167         6.8      -416194.7102      -138.2065 2h33m38s/Msamples
+          80000   -389278.8772         6.8      -389139.6530      -139.2242 2h33m43s/Msamples
+          81000   -352099.9585         6.8      -351971.7938      -128.1647 2h33m59s/Msamples
+          82000   -320963.9904         7.0      -320837.9064      -126.0839 2h34m2s/Msamples
+          83000   -356512.6868         7.1      -356386.1390      -126.5478 2h34m14s/Msamples
+          84000   -370006.4389         7.1      -369868.4869      -137.9519 2h34m13s/Msamples
+          85000   -323352.2685         7.3      -323211.3792      -140.8892 2h34m14s/Msamples
+          86000   -328664.7543         7.5      -328525.9951      -138.7592 2h34m22s/Msamples
+          87000   -328057.0693         7.7      -327914.2247      -142.8446 2h34m33s/Msamples
+          88000   -306538.8239         8.0      -306399.0671      -139.7568 2h34m39s/Msamples
+          89000   -297494.3585         8.5      -297365.6430      -128.7155 2h34m44s/Msamples
+          90000   -320607.4854         8.7      -320470.7363      -136.7491 2h34m52s/Msamples
+          91000   -309534.0380         9.0      -309405.1097      -128.9282 2h35m0s/Msamples
+          92000   -298228.0414         9.3      -298096.0185      -132.0229 2h35m12s/Msamples
+          93000   -356013.7954         9.4      -355871.4997      -142.2957 2h35m10s/Msamples
+          94000   -368917.4824         9.5      -368770.5160      -146.9664 2h35m12s/Msamples
+          95000   -718008.5244        14.0      -717854.4244      -154.0999 2h35m12s/Msamples
+          96000   -546159.9905        14.0      -546028.9908      -130.9997 2h35m14s/Msamples
+          97000   -548731.9171        13.7      -548612.3868      -119.5302 2h35m15s/Msamples
+          98000   -587936.1272        24.6      -587803.1384      -132.9888 2h35m13s/Msamples
+          99000   -595343.1508        21.0      -595205.1520      -137.9988 2h35m16s/Msamples
+         100000   -541337.0251        18.5      -541200.4509      -136.5742 2h35m11s/Msamples
+Operator                                                          Tuning    #accept    #reject      Pr(m)  Pr(acc|m)
+ScaleOperator(RateACScaler.s:seq_fossil_sele)                     0.2496         36         34     0.0007     0.5143 Try setting scaleFactor to about 0.062
+ScaleOperator(RateAGScaler.s:seq_fossil_sele)                     0.2029         41         38     0.0007     0.5190 Try setting scaleFactor to about 0.041
+ScaleOperator(RateATScaler.s:seq_fossil_sele)                     0.2656         46         31     0.0007     0.5974 Try setting scaleFactor to about 0.071
+ScaleOperator(RateCGScaler.s:seq_fossil_sele)                     0.1942         45         29     0.0007     0.6081 Try setting scaleFactor to about 0.038
+ScaleOperator(RateGTScaler.s:seq_fossil_sele)                     0.2201         33         44     0.0007     0.4286 Try setting scaleFactor to about 0.063
+ScaleOperator(gammaShapeScaler.s:seq_fossil_sele)                 0.2983         38         29     0.0007     0.5672 Try setting scaleFactor to about 0.089
+ScaleOperator(ucldMeanScaler.c:seq_fossil_sele)                   0.1857        294        474     0.0074     0.3828 
+ScaleOperator(ucldStdevScaler.c:seq_fossil_sele)                  0.1817        955       1381     0.0223     0.4088 Try setting scaleFactor to about 0.051
+IntRandomWalkOperator(CategoriesRandomWalk.c:seq_fossil_sele)          -       4815       2542     0.0742     0.6545 
+SwapOperator(CategoriesSwapOperator.c:seq_fossil_sele)                 -       7337          0     0.0742     1.0000 
+UniformOperator(CategoriesUniform.c:seq_fossil_sele)                   -       7536          0     0.0742     1.0000 
+UpDownOperator(relaxedUpDownOperator.c:seq_fossil_sele)           0.2828         14       2168     0.0223     0.0064 Try setting scaleFactor to about 0.532
+ScaleOperator(originScalerFBD.t:seq_fossil_sele)                  0.6107        705       1503     0.0223     0.3193 
+ScaleOperator(divRateScalerFBD.t:seq_fossil_sele)                 0.4620       3088       4338     0.0742     0.4158 Try setting scaleFactor to about 0.254
+ScaleOperator(turnoverScalerFBD.t:seq_fossil_sele)                0.5393        459       6896     0.0742     0.0624 Try setting scaleFactor to about 0.734
+ScaleOperator(samplingPScalerFBD.t:seq_fossil_sele)               0.3177       3050       4401     0.0742     0.4093 Try setting scaleFactor to about 0.135
+LeafToSampledAncestorJump(LeafToSAFBD.t:seq_fossil_sele)               -       1582       5806     0.0742     0.2141 
+SAWilsonBalding(SAWilsonBaldingFBD.t:seq_fossil_sele)                  -       2440       4883     0.0742     0.3332 
+SAExchange(SAWideFBD.t:seq_fossil_sele)                                -       1157       6242     0.0742     0.1564 
+SAExchange(SANarrowFBD.t:seq_fossil_sele)                              -       3807       3719     0.0742     0.5058 
+SAUniform(SAUniformOperatorFBD.t:seq_fossil_sele)                      -      11487       3466     0.1485     0.7682 
+SAScaleOperator(SATreeRootScalerFBD.t:seq_fossil_sele)            0.7614        277        423     0.0074     0.3957 
+SAScaleOperator(SATreeScalerFBD.t:seq_fossil_sele)                0.7924        130       2110     0.0223     0.0580 Try setting scaleFactor to about 0.89
+DeltaExchangeOperator(FrequenciesExchanger.s:seq_fossil_sele)     0.1347         67          5     0.0007     0.9306 Try setting delta to about 0.269
+
+     Tuning: The value of the operator's tuning parameter, or '-' if the operator can't be optimized.
+    #accept: The total number of times a proposal by this operator has been accepted.
+    #reject: The total number of times a proposal by this operator has been rejected.
+      Pr(m): The probability this operator is chosen in a step of the MCMC (i.e. the normalized weight).
+  Pr(acc|m): The acceptance probability (#accept as a fraction of the total proposals for this operator).
+
+Total calculation time: 883.125 seconds
+End likelihood: -136.57421418539306
+
+Loading /Users/apple/Desktop/EEOB563/final_project/round2/run1/step0/likelihood.log, burnin 50%, skipping 500 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+*****************************************************************marginalLs[0 ] = -192319.42972358436
+marginalLs[1 ] = -381771.92360158113
+
+Step        theta         likelihood   contribution ESS
+0            1            -192319.4297 -192389.6731 2.5041       
+1            0            -381771.9236 0            13.0033      
+
+marginal L estimate = -192389.67310588088
+
+
+Total wall time: 1855 seconds
+Done
+******************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
+
+Loading /Users/apple/Desktop/EEOB563/final_project/round2/run1/step1/likelihood.log, burnin 50%, skipping 500 log lines
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+***********************************************************************************
+
+Calculating statistics
+
+|---------|---------|---------|---------|---------|---------|---------|---------|
+********************************************************************************
+
